@@ -1,0 +1,27 @@
+C:\Users\andre\Documents\Programacion II\frontEnd\Negocios\obj\Debug\Negocios.vbprojAssemblyReference.cache
+C:\Users\andre\Documents\Programacion II\frontEnd\Negocios\obj\Debug\Negocios.Resources.resources
+C:\Users\andre\Documents\Programacion II\frontEnd\Negocios\obj\Debug\Negocios.vbproj.GenerateResource.cache
+C:\Users\andre\Documents\Programacion II\frontEnd\Negocios\bin\Debug\Negocios.dll
+C:\Users\andre\Documents\Programacion II\frontEnd\Negocios\bin\Debug\Negocios.pdb
+C:\Users\andre\Documents\Programacion II\frontEnd\Negocios\bin\Debug\Negocios.xml
+C:\Users\andre\Documents\Programacion II\frontEnd\Negocios\bin\Debug\Datos.dll
+C:\Users\andre\Documents\Programacion II\frontEnd\Negocios\bin\Debug\Datos.pdb
+C:\Users\andre\Documents\Programacion II\frontEnd\Negocios\bin\Debug\Datos.xml
+C:\Users\andre\Documents\Programacion II\frontEnd\Negocios\obj\Debug\Negocios.vbproj.CopyComplete
+C:\Users\andre\Documents\Programacion II\frontEnd\Negocios\obj\Debug\Negocios.dll
+C:\Users\andre\Documents\Programacion II\frontEnd\Negocios\obj\Debug\Negocios.xml
+C:\Users\andre\Documents\Programacion II\frontEnd\Negocios\obj\Debug\Negocios.pdb
+C:\Users\andre\Documents\Archivos de llave maya\documentos\Programacion II\frontEnd\Negocios\bin\Debug\Negocios.dll
+C:\Users\andre\Documents\Archivos de llave maya\documentos\Programacion II\frontEnd\Negocios\bin\Debug\Negocios.pdb
+C:\Users\andre\Documents\Archivos de llave maya\documentos\Programacion II\frontEnd\Negocios\bin\Debug\Negocios.xml
+C:\Users\andre\Documents\Archivos de llave maya\documentos\Programacion II\frontEnd\Negocios\bin\Debug\Datos.dll
+C:\Users\andre\Documents\Archivos de llave maya\documentos\Programacion II\frontEnd\Negocios\bin\Debug\Datos.pdb
+C:\Users\andre\Documents\Archivos de llave maya\documentos\Programacion II\frontEnd\Negocios\bin\Debug\Datos.xml
+C:\Users\andre\Documents\Archivos de llave maya\documentos\Programacion II\frontEnd\Negocios\obj\Debug\Negocios.vbprojAssemblyReference.cache
+C:\Users\andre\Documents\Archivos de llave maya\documentos\Programacion II\frontEnd\Negocios\obj\Debug\Negocios.Resources.resources
+C:\Users\andre\Documents\Archivos de llave maya\documentos\Programacion II\frontEnd\Negocios\obj\Debug\Negocios.vbproj.GenerateResource.cache
+C:\Users\andre\Documents\Archivos de llave maya\documentos\Programacion II\frontEnd\Negocios\obj\Debug\Negocios.vbproj.CoreCompileInputs.cache
+C:\Users\andre\Documents\Archivos de llave maya\documentos\Programacion II\frontEnd\Negocios\obj\Debug\Negocios.vbproj.CopyComplete
+C:\Users\andre\Documents\Archivos de llave maya\documentos\Programacion II\frontEnd\Negocios\obj\Debug\Negocios.dll
+C:\Users\andre\Documents\Archivos de llave maya\documentos\Programacion II\frontEnd\Negocios\obj\Debug\Negocios.xml
+C:\Users\andre\Documents\Archivos de llave maya\documentos\Programacion II\frontEnd\Negocios\obj\Debug\Negocios.pdb

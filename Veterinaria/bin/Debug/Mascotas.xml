@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<tabla>
+  <mascota>
+    <Id>305160774</Id>
+    <nombre_Mascota>teo</nombre_Mascota>
+    <tipo_Mascota>perro</tipo_Mascota>
+    <raza>chihuahua</raza>
+    <peso>63</peso>
+    <Fecha_De_Nacimiento>15/02/2014</Fecha_De_Nacimiento>
+    <Salud>bien</Salud>
+  </mascota>
+  <mascota>
+    <Id>305160875</Id>
+    <nombre_Mascota>puki</nombre_Mascota>
+    <tipo_Mascota>perro</tipo_Mascota>
+    <raza>doberman</raza>
+    <peso>35</peso>
+    <Fecha_De_Nacimiento>10-02-2007</Fecha_De_Nacimiento>
+    <Salud>bien</Salud>
+  </mascota>
+  <mascota>
+    <Id>305160896</Id>
+    <nombre_Mascota>lucky</nombre_Mascota>
+    <tipo_Mascota>raton</tipo_Mascota>
+    <raza>hamster</raza>
+    <peso>15</peso>
+    <Fecha_De_Nacimiento>12-05-2017</Fecha_De_Nacimiento>
+    <Salud>enfermo</Salud>
+  </mascota>
+</tabla>

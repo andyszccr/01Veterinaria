@@ -1,0 +1,64 @@
+C:\Users\sndrey\source\repos\frontEnd\Veterinaria\bin\Debug\Veterinaria.exe.config
+C:\Users\sndrey\source\repos\frontEnd\Veterinaria\bin\Debug\Veterinaria.exe
+C:\Users\sndrey\source\repos\frontEnd\Veterinaria\bin\Debug\Veterinaria.pdb
+C:\Users\sndrey\source\repos\frontEnd\Veterinaria\bin\Debug\Veterinaria.xml
+C:\Users\sndrey\source\repos\frontEnd\Veterinaria\obj\Debug\Veterinaria.vbprojAssemblyReference.cache
+C:\Users\sndrey\source\repos\frontEnd\Veterinaria\obj\Debug\Veterinaria.frmMenu.resources
+C:\Users\sndrey\source\repos\frontEnd\Veterinaria\obj\Debug\Veterinaria.Resources.resources
+C:\Users\sndrey\source\repos\frontEnd\Veterinaria\obj\Debug\Veterinaria.vbproj.GenerateResource.cache
+C:\Users\sndrey\source\repos\frontEnd\Veterinaria\obj\Debug\Veterinaria.vbproj.CoreCompileInputs.cache
+C:\Users\sndrey\source\repos\frontEnd\Veterinaria\obj\Debug\Veterinaria.exe
+C:\Users\sndrey\source\repos\frontEnd\Veterinaria\obj\Debug\Veterinaria.xml
+C:\Users\sndrey\source\repos\frontEnd\Veterinaria\obj\Debug\Veterinaria.pdb
+C:\Users\sndrey\source\repos\frontEnd\Veterinaria\obj\Debug\Veterinaria.frmClientesRegistrados.resources
+C:\Users\andre\Documents\Programacion II\frontEnd\Veterinaria\bin\Debug\Veterinaria.exe.config
+C:\Users\andre\Documents\Programacion II\frontEnd\Veterinaria\bin\Debug\Veterinaria.exe
+C:\Users\andre\Documents\Programacion II\frontEnd\Veterinaria\bin\Debug\Veterinaria.pdb
+C:\Users\andre\Documents\Programacion II\frontEnd\Veterinaria\bin\Debug\Veterinaria.xml
+C:\Users\andre\Documents\Programacion II\frontEnd\Veterinaria\obj\Debug\Veterinaria.vbprojAssemblyReference.cache
+C:\Users\andre\Documents\Programacion II\frontEnd\Veterinaria\obj\Debug\Veterinaria.frmAcercaDE.resources
+C:\Users\andre\Documents\Programacion II\frontEnd\Veterinaria\obj\Debug\Veterinaria.frmClientesNuevos.resources
+C:\Users\andre\Documents\Programacion II\frontEnd\Veterinaria\obj\Debug\Veterinaria.frmClientesRegistrados.resources
+C:\Users\andre\Documents\Programacion II\frontEnd\Veterinaria\obj\Debug\Veterinaria.frmMenu.resources
+C:\Users\andre\Documents\Programacion II\frontEnd\Veterinaria\obj\Debug\Veterinaria.Resources.resources
+C:\Users\andre\Documents\Programacion II\frontEnd\Veterinaria\obj\Debug\Veterinaria.vbproj.GenerateResource.cache
+C:\Users\andre\Documents\Programacion II\frontEnd\Veterinaria\obj\Debug\Veterinaria.exe
+C:\Users\andre\Documents\Programacion II\frontEnd\Veterinaria\obj\Debug\Veterinaria.xml
+C:\Users\andre\Documents\Programacion II\frontEnd\Veterinaria\obj\Debug\Veterinaria.pdb
+C:\Users\andre\Documents\Programacion II\frontEnd\Veterinaria\bin\Debug\Negocios.dll
+C:\Users\andre\Documents\Programacion II\frontEnd\Veterinaria\bin\Debug\Datos.dll
+C:\Users\andre\Documents\Programacion II\frontEnd\Veterinaria\bin\Debug\Negocios.pdb
+C:\Users\andre\Documents\Programacion II\frontEnd\Veterinaria\bin\Debug\Negocios.xml
+C:\Users\andre\Documents\Programacion II\frontEnd\Veterinaria\bin\Debug\Datos.pdb
+C:\Users\andre\Documents\Programacion II\frontEnd\Veterinaria\bin\Debug\Datos.xml
+C:\Users\andre\Documents\Programacion II\frontEnd\Veterinaria\obj\Debug\Veterinaria.vbproj.CopyComplete
+C:\Users\andre\Documents\Programacion II\frontEnd\Veterinaria\obj\Debug\Veterinaria.frmMascotas.resources
+C:\Users\andre\Documents\Programacion II\frontEnd\Veterinaria\obj\Debug\Veterinaria.lblcelular.resources
+C:\Users\andre\Documents\Programacion II\frontEnd\Veterinaria\obj\Debug\Veterinaria.frmRecuperarMascota.resources
+C:\Users\andre\Documents\Programacion II\frontEnd\Veterinaria\obj\Debug\Veterinaria.frmMascotasRegistradas.resources
+C:\Users\andre\Documents\Archivos de llave maya\documentos\Programacion II\frontEnd\Veterinaria\bin\Debug\Veterinaria.exe.config
+C:\Users\andre\Documents\Archivos de llave maya\documentos\Programacion II\frontEnd\Veterinaria\bin\Debug\Veterinaria.exe
+C:\Users\andre\Documents\Archivos de llave maya\documentos\Programacion II\frontEnd\Veterinaria\bin\Debug\Veterinaria.pdb
+C:\Users\andre\Documents\Archivos de llave maya\documentos\Programacion II\frontEnd\Veterinaria\bin\Debug\Veterinaria.xml
+C:\Users\andre\Documents\Archivos de llave maya\documentos\Programacion II\frontEnd\Veterinaria\bin\Debug\Negocios.dll
+C:\Users\andre\Documents\Archivos de llave maya\documentos\Programacion II\frontEnd\Veterinaria\bin\Debug\Datos.dll
+C:\Users\andre\Documents\Archivos de llave maya\documentos\Programacion II\frontEnd\Veterinaria\bin\Debug\Negocios.pdb
+C:\Users\andre\Documents\Archivos de llave maya\documentos\Programacion II\frontEnd\Veterinaria\bin\Debug\Negocios.xml
+C:\Users\andre\Documents\Archivos de llave maya\documentos\Programacion II\frontEnd\Veterinaria\bin\Debug\Datos.pdb
+C:\Users\andre\Documents\Archivos de llave maya\documentos\Programacion II\frontEnd\Veterinaria\bin\Debug\Datos.xml
+C:\Users\andre\Documents\Archivos de llave maya\documentos\Programacion II\frontEnd\Veterinaria\obj\Debug\Veterinaria.vbprojAssemblyReference.cache
+C:\Users\andre\Documents\Archivos de llave maya\documentos\Programacion II\frontEnd\Veterinaria\obj\Debug\Veterinaria.frmAcercaDE.resources
+C:\Users\andre\Documents\Archivos de llave maya\documentos\Programacion II\frontEnd\Veterinaria\obj\Debug\Veterinaria.frmClientesNuevos.resources
+C:\Users\andre\Documents\Archivos de llave maya\documentos\Programacion II\frontEnd\Veterinaria\obj\Debug\Veterinaria.frmClientesRegistrados.resources
+C:\Users\andre\Documents\Archivos de llave maya\documentos\Programacion II\frontEnd\Veterinaria\obj\Debug\Veterinaria.frmMascotasRegistradas.resources
+C:\Users\andre\Documents\Archivos de llave maya\documentos\Programacion II\frontEnd\Veterinaria\obj\Debug\Veterinaria.frmMenu.resources
+C:\Users\andre\Documents\Archivos de llave maya\documentos\Programacion II\frontEnd\Veterinaria\obj\Debug\Veterinaria.frmMascotas.resources
+C:\Users\andre\Documents\Archivos de llave maya\documentos\Programacion II\frontEnd\Veterinaria\obj\Debug\Veterinaria.lblcelular.resources
+C:\Users\andre\Documents\Archivos de llave maya\documentos\Programacion II\frontEnd\Veterinaria\obj\Debug\Veterinaria.frmRecuperarMascota.resources
+C:\Users\andre\Documents\Archivos de llave maya\documentos\Programacion II\frontEnd\Veterinaria\obj\Debug\Veterinaria.Resources.resources
+C:\Users\andre\Documents\Archivos de llave maya\documentos\Programacion II\frontEnd\Veterinaria\obj\Debug\Veterinaria.vbproj.GenerateResource.cache
+C:\Users\andre\Documents\Archivos de llave maya\documentos\Programacion II\frontEnd\Veterinaria\obj\Debug\Veterinaria.vbproj.CoreCompileInputs.cache
+C:\Users\andre\Documents\Archivos de llave maya\documentos\Programacion II\frontEnd\Veterinaria\obj\Debug\Veterinaria.vbproj.CopyComplete
+C:\Users\andre\Documents\Archivos de llave maya\documentos\Programacion II\frontEnd\Veterinaria\obj\Debug\Veterinaria.exe
+C:\Users\andre\Documents\Archivos de llave maya\documentos\Programacion II\frontEnd\Veterinaria\obj\Debug\Veterinaria.xml
+C:\Users\andre\Documents\Archivos de llave maya\documentos\Programacion II\frontEnd\Veterinaria\obj\Debug\Veterinaria.pdb

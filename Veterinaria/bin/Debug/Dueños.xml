@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<tabla>
+  <Dueños>
+    <ID>305160775</ID>
+    <nombre>andres</nombre>
+    <apellido>solano</apellido>
+    <direccion>cerca</direccion>
+    <telefono>63455897</telefono>
+    <correo>andrey.sanchez@.com</correo>
+  </Dueños>
+  <Dueños>
+    <ID>305160774</ID>
+    <nombre>Andrey</nombre>
+    <apellido>Sanchez</apellido>
+    <direccion>Cartago</direccion>
+    <telefono>63455593</telefono>
+    <correo>andrey.sanchez30@hotmail.com</correo>
+  </Dueños>
+</tabla>

@@ -1,0 +1,19 @@
+C:\Users\andre\Documents\Programacion II\frontEnd\Datos\bin\Debug\Datos.dll
+C:\Users\andre\Documents\Programacion II\frontEnd\Datos\bin\Debug\Datos.pdb
+C:\Users\andre\Documents\Programacion II\frontEnd\Datos\bin\Debug\Datos.xml
+C:\Users\andre\Documents\Programacion II\frontEnd\Datos\obj\Debug\Datos.vbprojAssemblyReference.cache
+C:\Users\andre\Documents\Programacion II\frontEnd\Datos\obj\Debug\Datos.Resources.resources
+C:\Users\andre\Documents\Programacion II\frontEnd\Datos\obj\Debug\Datos.vbproj.GenerateResource.cache
+C:\Users\andre\Documents\Programacion II\frontEnd\Datos\obj\Debug\Datos.dll
+C:\Users\andre\Documents\Programacion II\frontEnd\Datos\obj\Debug\Datos.xml
+C:\Users\andre\Documents\Programacion II\frontEnd\Datos\obj\Debug\Datos.pdb
+C:\Users\andre\Documents\Archivos de llave maya\documentos\Programacion II\frontEnd\Datos\bin\Debug\Datos.dll
+C:\Users\andre\Documents\Archivos de llave maya\documentos\Programacion II\frontEnd\Datos\bin\Debug\Datos.pdb
+C:\Users\andre\Documents\Archivos de llave maya\documentos\Programacion II\frontEnd\Datos\bin\Debug\Datos.xml
+C:\Users\andre\Documents\Archivos de llave maya\documentos\Programacion II\frontEnd\Datos\obj\Debug\Datos.vbprojAssemblyReference.cache
+C:\Users\andre\Documents\Archivos de llave maya\documentos\Programacion II\frontEnd\Datos\obj\Debug\Datos.Resources.resources
+C:\Users\andre\Documents\Archivos de llave maya\documentos\Programacion II\frontEnd\Datos\obj\Debug\Datos.vbproj.GenerateResource.cache
+C:\Users\andre\Documents\Archivos de llave maya\documentos\Programacion II\frontEnd\Datos\obj\Debug\Datos.vbproj.CoreCompileInputs.cache
+C:\Users\andre\Documents\Archivos de llave maya\documentos\Programacion II\frontEnd\Datos\obj\Debug\Datos.dll
+C:\Users\andre\Documents\Archivos de llave maya\documentos\Programacion II\frontEnd\Datos\obj\Debug\Datos.xml
+C:\Users\andre\Documents\Archivos de llave maya\documentos\Programacion II\frontEnd\Datos\obj\Debug\Datos.pdb
