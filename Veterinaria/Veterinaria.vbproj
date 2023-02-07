@@ -215,5 +215,8 @@
   <ItemGroup>
     <None Include="Resources\iamgen.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Modulos\Usuarios\" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>

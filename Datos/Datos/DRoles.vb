@@ -15,7 +15,7 @@ Public Class DRoles
         Try
 
             cmdRol.Connection = Conexion.AbrirConexion()
-            cmdRol = New SqlCommand("SPMantenimientoRoles", Conexion.Conexion)
+            cmdRol = New SqlCommand("SpMantenimientoRoles", Conexion.Conexion)
             cmdRol.CommandType = CommandType.StoredProcedure
             cmdRol.Parameters.Add(New SqlParameter("@CodigoRol", obje._CodigoRol))
             cmdRol.Parameters.Add(New SqlParameter("@PrimerApellido", obje._Rol))
