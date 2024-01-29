@@ -41,6 +41,18 @@ Encontraras en este documento todo sobre lo que es el inicio del proyecto, tanto
 
 ## Vista previa del proyecto Version 2.0
 Proximamente la nueva version 2
+
+
+## Detalle de mejora de la version 2 📑
+
+En este proyecto de Veterinaria el objetivo principal es mejorar la calidad del software, de que posea una mejor presenrtación para el cliente,
+a su vez, en esta imagen adjunto, los cambios a considerar, tales como catalogos de productos, empleados, animales, entre otros....
+No obstante, se realizará cambios en el parte interna del sistema, que incluya un manejo de archivos como almacenamiento de datos en servidor, tal como se muestra en la imagen.
+![image](https://github.com/andreyszcr/01-Veterinaria/assets/60619582/d477928b-cf9b-4949-bd18-9b2b36100116)
+* [Guia de Construcción de Proyecto ](https://www.figma.com/file/xAdFvkJKS4VBqgEJQk0nlW/Welcome-to-FigJam?type=whiteboard&node-id=0%3A1&t=GF4DlZBKPjVvtLYs-1)
+
+
+
 ![Captura del proyecto](https://github.com/eduardofierropro/Portafolio-y-CV/blob/main/CAPTURA-DEL-PROYECTO.jpg?raw=true)
 ![Captura del proyecto](https://github.com/eduardofierropro/Portafolio-y-CV/blob/main/CAPTURA-DEL-PROYECTO.jpg?raw=true)
 ![Captura del proyecto](https://github.com/eduardofierropro/Portafolio-y-CV/blob/main/CAPTURA-DEL-PROYECTO.jpg?raw=true)
