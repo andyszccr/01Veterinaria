@@ -51,6 +51,14 @@ No obstante, se realizará cambios en el parte interna del sistema, que incluya 
 ![image](https://github.com/andreyszcr/01-Veterinaria/assets/60619582/d477928b-cf9b-4949-bd18-9b2b36100116)
 * [Guia de Construcción de Proyecto ](https://www.figma.com/file/xAdFvkJKS4VBqgEJQk0nlW/Welcome-to-FigJam?type=whiteboard&node-id=0%3A1&t=GF4DlZBKPjVvtLYs-1)
 
+## Paleta de colores
+Aqui en este apartado se presenta la paleta de Colores que se van a utilizar en como mejoria en proyecto, para una mejor visualización.
+
+![image](https://github.com/andreyszcr/01-Veterinaria/assets/60619582/6c9f87d4-5b8e-4138-868a-2d143ea02513)
+
+
+* [Paleta de Colores](https://colorhunt.co/palette/191d881450a3337ccfffc436)
+
 
 
 ![Captura del proyecto](https://github.com/eduardofierropro/Portafolio-y-CV/blob/main/CAPTURA-DEL-PROYECTO.jpg?raw=true)
