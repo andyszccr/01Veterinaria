@@ -52,6 +52,9 @@ No obstante, se realizará cambios en el parte interna del sistema, que incluya 
 * [Guia de Construcción de Proyecto ](https://www.figma.com/file/xAdFvkJKS4VBqgEJQk0nlW/Welcome-to-FigJam?type=whiteboard&node-id=0%3A1&t=GF4DlZBKPjVvtLYs-1)
 
 * [Link del diagrama de base de datos](https://www.figma.com/board/yx5rbfFKH6LxJCDXkwERQx/BD-veterinarias?node-id=0-1&node-type=CANVAS&t=TusXDsHTInJH7HzD-0)
+  
+  ![image](https://github.com/user-attachments/assets/1378eb39-8871-409c-bc09-d5f09e2d44f3)
+
 
 ## Paleta de colores
 Aqui en este apartado se presenta la paleta de Colores que se van a utilizar en como mejoria en proyecto, para una mejor visualización.
