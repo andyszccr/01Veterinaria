@@ -25,3 +25,20 @@ C:\Users\andre\Documents\Archivos de llave maya\documentos\Programacion II\front
 C:\Users\andre\Documents\Archivos de llave maya\documentos\Programacion II\frontEnd\Negocios\obj\Debug\Negocios.dll
 C:\Users\andre\Documents\Archivos de llave maya\documentos\Programacion II\frontEnd\Negocios\obj\Debug\Negocios.xml
 C:\Users\andre\Documents\Archivos de llave maya\documentos\Programacion II\frontEnd\Negocios\obj\Debug\Negocios.pdb
+D:\Documentos\01 Proyectos\01-Veterinaria\Negocios\bin\Debug\Negocios.dll
+D:\Documentos\01 Proyectos\01-Veterinaria\Negocios\bin\Debug\Negocios.pdb
+D:\Documentos\01 Proyectos\01-Veterinaria\Negocios\bin\Debug\Negocios.xml
+D:\Documentos\01 Proyectos\01-Veterinaria\Negocios\bin\Debug\Datos.dll
+D:\Documentos\01 Proyectos\01-Veterinaria\Negocios\bin\Debug\Entidades.dll
+D:\Documentos\01 Proyectos\01-Veterinaria\Negocios\bin\Debug\Datos.pdb
+D:\Documentos\01 Proyectos\01-Veterinaria\Negocios\bin\Debug\Datos.xml
+D:\Documentos\01 Proyectos\01-Veterinaria\Negocios\bin\Debug\Entidades.pdb
+D:\Documentos\01 Proyectos\01-Veterinaria\Negocios\bin\Debug\Entidades.xml
+D:\Documentos\01 Proyectos\01-Veterinaria\Negocios\obj\Debug\Negocios.vbproj.AssemblyReference.cache
+D:\Documentos\01 Proyectos\01-Veterinaria\Negocios\obj\Debug\Negocios.Resources.resources
+D:\Documentos\01 Proyectos\01-Veterinaria\Negocios\obj\Debug\Negocios.vbproj.GenerateResource.cache
+D:\Documentos\01 Proyectos\01-Veterinaria\Negocios\obj\Debug\Negocios.vbproj.CoreCompileInputs.cache
+D:\Documentos\01 Proyectos\01-Veterinaria\Negocios\obj\Debug\Negocios.vbproj.Up2Date
+D:\Documentos\01 Proyectos\01-Veterinaria\Negocios\obj\Debug\Negocios.dll
+D:\Documentos\01 Proyectos\01-Veterinaria\Negocios\obj\Debug\Negocios.xml
+D:\Documentos\01 Proyectos\01-Veterinaria\Negocios\obj\Debug\Negocios.pdb

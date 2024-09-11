@@ -15,6 +15,8 @@ Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "BDVeterinaria", "BDVeterina
 EndProject
 Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "CapaEntidades", "CapaEntidades\CapaEntidades.vbproj", "{78A1CD61-CE95-4CAB-9CF2-BABEF97580D3}"
 EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "CapaDatos", "CapaDatos\CapaDatos.vbproj", "{14D7078A-3A69-46F6-88E5-86437112DDE3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -47,6 +49,10 @@ Global
 		{78A1CD61-CE95-4CAB-9CF2-BABEF97580D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{78A1CD61-CE95-4CAB-9CF2-BABEF97580D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{78A1CD61-CE95-4CAB-9CF2-BABEF97580D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{14D7078A-3A69-46F6-88E5-86437112DDE3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14D7078A-3A69-46F6-88E5-86437112DDE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14D7078A-3A69-46F6-88E5-86437112DDE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14D7078A-3A69-46F6-88E5-86437112DDE3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
