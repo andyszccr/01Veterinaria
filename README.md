@@ -64,9 +64,10 @@ Aqui en este apartado se presenta la paleta de Colores que se van a utilizar en 
 
 * [Paleta de Colores](https://colorhunt.co/palette/191d881450a3337ccfffc436)
 
+## Imagenes del proyecto
+![image](https://github.com/user-attachments/assets/db4bfea9-78ce-4797-a0f7-1f2f190a44b6)
 
 
-![Captura del proyecto](https://github.com/eduardofierropro/Portafolio-y-CV/blob/main/CAPTURA-DEL-PROYECTO.jpg?raw=true)
 ![Captura del proyecto](https://github.com/eduardofierropro/Portafolio-y-CV/blob/main/CAPTURA-DEL-PROYECTO.jpg?raw=true)
 ![Captura del proyecto](https://github.com/eduardofierropro/Portafolio-y-CV/blob/main/CAPTURA-DEL-PROYECTO.jpg?raw=true)
 
@@ -75,8 +76,8 @@ Aqui en este apartado se presenta la paleta de Colores que se van a utilizar en 
 ## Autor ✒️
 **Andrey Sanchez Zuniga**
 
-* [andrey.sanchez30@hotmail.com](andrey.sanchez30@hotmail.com)
-* [LinkedIn](https://www.linkedin.com/in/andreyszcr/)
+* [andreyszcr@gmail.com](andreyszcr@gmail.com)
+* [LinkedIn](https://www.linkedin.com/in/andreysz/)
 * [Sitio Web](https://andreyszcr.netlify.app/))
 
 <!--## Instalación 
