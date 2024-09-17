@@ -1,9 +1,9 @@
-﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
 Partial Class FrmInicio
     Inherits System.Windows.Forms.Form
 
     'Form reemplaza a Dispose para limpiar la lista de componentes.
-    <System.Diagnostics.DebuggerNonUserCode()> _
+    <System.Diagnostics.DebuggerNonUserCode()>
     Protected Overrides Sub Dispose(ByVal disposing As Boolean)
         Try
             If disposing AndAlso components IsNot Nothing Then
@@ -20,7 +20,7 @@ Partial Class FrmInicio
     'NOTA: el Diseñador de Windows Forms necesita el siguiente procedimiento
     'Se puede modificar usando el Diseñador de Windows Forms.  
     'No lo modifique con el editor de código.
-    <System.Diagnostics.DebuggerStepThrough()> _
+    <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(FrmInicio))
@@ -28,7 +28,11 @@ Partial Class FrmInicio
         Me.tmMOSTRAR = New System.Windows.Forms.Timer(Me.components)
         Me.PanelContenedor = New System.Windows.Forms.Panel()
         Me.panelformularios = New System.Windows.Forms.Panel()
+        Me.PictureBox2 = New System.Windows.Forms.PictureBox()
         Me.PanelMenu = New System.Windows.Forms.Panel()
+        Me.btnSettings = New System.Windows.Forms.Button()
+        Me.btnInfo = New System.Windows.Forms.Button()
+        Me.Button5 = New System.Windows.Forms.Button()
         Me.btnMenu = New System.Windows.Forms.PictureBox()
         Me.Panel6 = New System.Windows.Forms.Panel()
         Me.Button4 = New System.Windows.Forms.Button()
@@ -45,13 +49,13 @@ Partial Class FrmInicio
         Me.PanelBarraTitulo = New System.Windows.Forms.Panel()
         Me.btnCerrar = New System.Windows.Forms.Button()
         Me.btnRestaurar = New System.Windows.Forms.Button()
-        Me.PictureBox2 = New System.Windows.Forms.PictureBox()
+        Me.Panel1 = New System.Windows.Forms.Panel()
         Me.PanelContenedor.SuspendLayout()
         Me.panelformularios.SuspendLayout()
+        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.PanelMenu.SuspendLayout()
         CType(Me.btnMenu, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.PanelBarraTitulo.SuspendLayout()
-        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'tmOCULTAR
@@ -86,9 +90,24 @@ Partial Class FrmInicio
         Me.panelformularios.Size = New System.Drawing.Size(1150, 600)
         Me.panelformularios.TabIndex = 3
         '
+        'PictureBox2
+        '
+        Me.PictureBox2.Image = CType(resources.GetObject("PictureBox2.Image"), System.Drawing.Image)
+        Me.PictureBox2.Location = New System.Drawing.Point(387, 95)
+        Me.PictureBox2.Margin = New System.Windows.Forms.Padding(2)
+        Me.PictureBox2.Name = "PictureBox2"
+        Me.PictureBox2.Size = New System.Drawing.Size(654, 425)
+        Me.PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
+        Me.PictureBox2.TabIndex = 4
+        Me.PictureBox2.TabStop = False
+        '
         'PanelMenu
         '
         Me.PanelMenu.BackColor = System.Drawing.Color.FromArgb(CType(CType(37, Byte), Integer), CType(CType(46, Byte), Integer), CType(CType(59, Byte), Integer))
+        Me.PanelMenu.Controls.Add(Me.Panel1)
+        Me.PanelMenu.Controls.Add(Me.btnSettings)
+        Me.PanelMenu.Controls.Add(Me.btnInfo)
+        Me.PanelMenu.Controls.Add(Me.Button5)
         Me.PanelMenu.Controls.Add(Me.btnMenu)
         Me.PanelMenu.Controls.Add(Me.Panel6)
         Me.PanelMenu.Controls.Add(Me.Button4)
@@ -108,6 +127,61 @@ Partial Class FrmInicio
         Me.PanelMenu.Size = New System.Drawing.Size(220, 560)
         Me.PanelMenu.TabIndex = 2
         '
+        'btnSettings
+        '
+        Me.btnSettings.FlatAppearance.BorderSize = 0
+        Me.btnSettings.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(CType(CType(145, Byte), Integer), CType(CType(110, Byte), Integer), CType(CType(21, Byte), Integer))
+        Me.btnSettings.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(44, Byte), Integer), CType(CType(55, Byte), Integer), CType(CType(70, Byte), Integer))
+        Me.btnSettings.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btnSettings.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnSettings.ForeColor = System.Drawing.Color.White
+        Me.btnSettings.Image = CType(resources.GetObject("btnSettings.Image"), System.Drawing.Image)
+        Me.btnSettings.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
+        Me.btnSettings.Location = New System.Drawing.Point(124, 510)
+        Me.btnSettings.Name = "btnSettings"
+        Me.btnSettings.Size = New System.Drawing.Size(41, 47)
+        Me.btnSettings.TabIndex = 16
+        Me.btnSettings.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
+        Me.btnSettings.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText
+        Me.btnSettings.UseVisualStyleBackColor = True
+        '
+        'btnInfo
+        '
+        Me.btnInfo.FlatAppearance.BorderSize = 0
+        Me.btnInfo.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(CType(CType(145, Byte), Integer), CType(CType(110, Byte), Integer), CType(CType(21, Byte), Integer))
+        Me.btnInfo.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(44, Byte), Integer), CType(CType(55, Byte), Integer), CType(CType(70, Byte), Integer))
+        Me.btnInfo.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btnInfo.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnInfo.ForeColor = System.Drawing.Color.White
+        Me.btnInfo.Image = CType(resources.GetObject("btnInfo.Image"), System.Drawing.Image)
+        Me.btnInfo.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
+        Me.btnInfo.Location = New System.Drawing.Point(171, 510)
+        Me.btnInfo.Name = "btnInfo"
+        Me.btnInfo.Size = New System.Drawing.Size(41, 47)
+        Me.btnInfo.TabIndex = 15
+        Me.btnInfo.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
+        Me.btnInfo.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText
+        Me.btnInfo.UseVisualStyleBackColor = True
+        '
+        'Button5
+        '
+        Me.Button5.FlatAppearance.BorderSize = 0
+        Me.Button5.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(CType(CType(145, Byte), Integer), CType(CType(110, Byte), Integer), CType(CType(21, Byte), Integer))
+        Me.Button5.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(44, Byte), Integer), CType(CType(55, Byte), Integer), CType(CType(70, Byte), Integer))
+        Me.Button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Button5.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button5.ForeColor = System.Drawing.Color.White
+        Me.Button5.Image = CType(resources.GetObject("Button5.Image"), System.Drawing.Image)
+        Me.Button5.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
+        Me.Button5.Location = New System.Drawing.Point(3, 413)
+        Me.Button5.Name = "Button5"
+        Me.Button5.Size = New System.Drawing.Size(220, 50)
+        Me.Button5.TabIndex = 14
+        Me.Button5.Text = "  Empleados"
+        Me.Button5.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
+        Me.Button5.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText
+        Me.Button5.UseVisualStyleBackColor = True
+        '
         'btnMenu
         '
         Me.btnMenu.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
@@ -122,7 +196,7 @@ Partial Class FrmInicio
         '
         'Panel6
         '
-        Me.Panel6.BackColor = System.Drawing.Color.FromArgb(CType(CType(145, Byte), Integer), CType(CType(110, Byte), Integer), CType(CType(21, Byte), Integer))
+        Me.Panel6.BackColor = System.Drawing.Color.White
         Me.Panel6.Location = New System.Drawing.Point(0, 357)
         Me.Panel6.Name = "Panel6"
         Me.Panel6.Size = New System.Drawing.Size(5, 50)
@@ -149,7 +223,7 @@ Partial Class FrmInicio
         '
         'Panel5
         '
-        Me.Panel5.BackColor = System.Drawing.Color.FromArgb(CType(CType(145, Byte), Integer), CType(CType(110, Byte), Integer), CType(CType(21, Byte), Integer))
+        Me.Panel5.BackColor = System.Drawing.Color.White
         Me.Panel5.Location = New System.Drawing.Point(0, 301)
         Me.Panel5.Name = "Panel5"
         Me.Panel5.Size = New System.Drawing.Size(5, 50)
@@ -176,7 +250,7 @@ Partial Class FrmInicio
         '
         'Panel4
         '
-        Me.Panel4.BackColor = System.Drawing.Color.FromArgb(CType(CType(145, Byte), Integer), CType(CType(110, Byte), Integer), CType(CType(21, Byte), Integer))
+        Me.Panel4.BackColor = System.Drawing.Color.White
         Me.Panel4.Location = New System.Drawing.Point(0, 245)
         Me.Panel4.Name = "Panel4"
         Me.Panel4.Size = New System.Drawing.Size(5, 50)
@@ -203,7 +277,7 @@ Partial Class FrmInicio
         '
         'Panel3
         '
-        Me.Panel3.BackColor = System.Drawing.Color.FromArgb(CType(CType(145, Byte), Integer), CType(CType(110, Byte), Integer), CType(CType(21, Byte), Integer))
+        Me.Panel3.BackColor = System.Drawing.Color.White
         Me.Panel3.Location = New System.Drawing.Point(0, 189)
         Me.Panel3.Name = "Panel3"
         Me.Panel3.Size = New System.Drawing.Size(5, 50)
@@ -230,7 +304,7 @@ Partial Class FrmInicio
         '
         'Panel2
         '
-        Me.Panel2.BackColor = System.Drawing.Color.FromArgb(CType(CType(145, Byte), Integer), CType(CType(110, Byte), Integer), CType(CType(21, Byte), Integer))
+        Me.Panel2.BackColor = System.Drawing.Color.White
         Me.Panel2.Location = New System.Drawing.Point(0, 133)
         Me.Panel2.Name = "Panel2"
         Me.Panel2.Size = New System.Drawing.Size(5, 50)
@@ -257,7 +331,7 @@ Partial Class FrmInicio
         '
         'Panel10
         '
-        Me.Panel10.BackColor = System.Drawing.Color.FromArgb(CType(CType(145, Byte), Integer), CType(CType(110, Byte), Integer), CType(CType(21, Byte), Integer))
+        Me.Panel10.BackColor = System.Drawing.Color.White
         Me.Panel10.Location = New System.Drawing.Point(0, 77)
         Me.Panel10.Name = "Panel10"
         Me.Panel10.Size = New System.Drawing.Size(5, 50)
@@ -270,14 +344,14 @@ Partial Class FrmInicio
         Me.btnDashBoard.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(44, Byte), Integer), CType(CType(55, Byte), Integer), CType(CType(70, Byte), Integer))
         Me.btnDashBoard.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btnDashBoard.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnDashBoard.ForeColor = System.Drawing.Color.White
+        Me.btnDashBoard.ForeColor = System.Drawing.Color.Transparent
         Me.btnDashBoard.Image = CType(resources.GetObject("btnDashBoard.Image"), System.Drawing.Image)
         Me.btnDashBoard.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
         Me.btnDashBoard.Location = New System.Drawing.Point(0, 77)
         Me.btnDashBoard.Name = "btnDashBoard"
         Me.btnDashBoard.Size = New System.Drawing.Size(220, 50)
         Me.btnDashBoard.TabIndex = 0
-        Me.btnDashBoard.Text = "  Dashboard"
+        Me.btnDashBoard.Text = "  Razas"
         Me.btnDashBoard.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
         Me.btnDashBoard.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText
         Me.btnDashBoard.UseVisualStyleBackColor = True
@@ -325,16 +399,13 @@ Partial Class FrmInicio
         Me.btnRestaurar.UseVisualStyleBackColor = True
         Me.btnRestaurar.Visible = False
         '
-        'PictureBox2
+        'Panel1
         '
-        Me.PictureBox2.Image = CType(resources.GetObject("PictureBox2.Image"), System.Drawing.Image)
-        Me.PictureBox2.Location = New System.Drawing.Point(387, 95)
-        Me.PictureBox2.Margin = New System.Windows.Forms.Padding(2)
-        Me.PictureBox2.Name = "PictureBox2"
-        Me.PictureBox2.Size = New System.Drawing.Size(654, 425)
-        Me.PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
-        Me.PictureBox2.TabIndex = 4
-        Me.PictureBox2.TabStop = False
+        Me.Panel1.BackColor = System.Drawing.Color.White
+        Me.Panel1.Location = New System.Drawing.Point(0, 413)
+        Me.Panel1.Name = "Panel1"
+        Me.Panel1.Size = New System.Drawing.Size(5, 50)
+        Me.Panel1.TabIndex = 12
         '
         'FrmInicio
         '
@@ -344,13 +415,14 @@ Partial Class FrmInicio
         Me.Controls.Add(Me.PanelContenedor)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
         Me.Name = "FrmInicio"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "FrmInicio"
         Me.PanelContenedor.ResumeLayout(False)
         Me.panelformularios.ResumeLayout(False)
+        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
         Me.PanelMenu.ResumeLayout(False)
         CType(Me.btnMenu, System.ComponentModel.ISupportInitialize).EndInit()
         Me.PanelBarraTitulo.ResumeLayout(False)
-        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 
     End Sub
@@ -376,4 +448,8 @@ Partial Class FrmInicio
     Friend WithEvents btnRestaurar As Button
     Friend WithEvents btnCerrar As Button
     Private WithEvents PictureBox2 As PictureBox
+    Friend WithEvents Button5 As Button
+    Friend WithEvents btnInfo As Button
+    Friend WithEvents btnSettings As Button
+    Friend WithEvents Panel1 As Panel
 End Class

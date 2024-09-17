@@ -51,6 +51,11 @@ Public Class FrmInicio
     Private Sub btnDashBoard_Click_1(sender As Object, e As EventArgs) Handles btnDashBoard.Click
         AbrirFormEnPanel(Of frmRazas)()
     End Sub
+    '*****************************************************************************
+    'Boton de informacion
+    Private Sub btnInfo_Click(sender As Object, e As EventArgs) Handles btnInfo.Click
+        AbrirFormEnPanel(Of frmInfo)()
+    End Sub
 #End Region
     '*****************************************************************************
 #Region "Metodos Generales"
@@ -103,7 +108,9 @@ Public Class FrmInicio
         End If
     End Sub
 
+    Private Sub PanelContenedor_Paint(sender As Object, e As PaintEventArgs) Handles PanelContenedor.Paint
 
+    End Sub
 
     Private Sub tmOCULTAR_Tick(sender As Object, e As EventArgs) Handles tmOCULTAR.Tick
         If PanelMenu.Width <= 60 Then

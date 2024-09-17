@@ -93,3 +93,5 @@ D:\Documentos\01 Proyectos\01-Veterinaria\Veterinaria\bin\Debug\Entidades.xml
 D:\Documentos\01 Proyectos\01-Veterinaria\Veterinaria\obj\Debug\Veterinaria.FrmInicio.resources
 D:\Documentos\01 Proyectos\01-Veterinaria\Veterinaria\obj\Debug\Veterina.C10E9B93.Up2Date
 D:\Documentos\01 Proyectos\01-Veterinaria\Veterinaria\obj\Debug\Veterinaria.frmRazas.resources
+D:\Documentos\01 Proyectos\01-Veterinaria\Veterinaria\obj\Debug\Veterinaria.frmInfo.resources
+D:\Documentos\01 Proyectos\01-Veterinaria\Veterinaria\obj\Debug\Veterinaria.FrmMensaje.resources

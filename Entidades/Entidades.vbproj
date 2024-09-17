@@ -64,14 +64,8 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.vb" />
-    <Compile Include="EArticulo.vb" />
-    <Compile Include="EClientes.vb" />
-    <Compile Include="EEmpleados.vb" />
-    <Compile Include="EMascotas.vb" />
-    <Compile Include="EPaises.vb" />
-    <Compile Include="EProvincias.vb" />
-    <Compile Include="ERoles.vb" />
+    <Compile Include="Generales.vb" />
+    <Compile Include="MedicineE.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
@@ -87,6 +81,12 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <Compile Include="PetsE.vb" />
+    <Compile Include="ProvincesE.vb" />
+    <Compile Include="RaceE.vb" />
+    <Compile Include="RolesE.vb" />
+    <Compile Include="TreatmentsE.vb" />
+    <Compile Include="UsersE.vb" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="My Project\Resources.resx">

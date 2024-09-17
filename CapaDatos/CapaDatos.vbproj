@@ -64,6 +64,7 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BaseDatos\ConexionSQL.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
@@ -100,7 +101,6 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="BaseDatos\" />
     <Folder Include="Excel\" />
     <Folder Include="XML\" />
   </ItemGroup>

@@ -92,6 +92,12 @@
     <Compile Include="frmClientesRegistrados.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="frmInfo.Designer.vb">
+      <DependentUpon>frmInfo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmInfo.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="FrmInicio.Designer.vb">
       <DependentUpon>FrmInicio.vb</DependentUpon>
     </Compile>
@@ -135,6 +141,12 @@
     <Compile Include="frmRecuperarMascota.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Mensajes\FrmMensaje.Designer.vb">
+      <DependentUpon>FrmMensaje.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Mensajes\FrmMensaje.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
@@ -162,6 +174,9 @@
     <EmbeddedResource Include="frmClientesRegistrados.resx">
       <DependentUpon>frmClientesRegistrados.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frmInfo.resx">
+      <DependentUpon>frmInfo.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FrmInicio.resx">
       <DependentUpon>FrmInicio.vb</DependentUpon>
     </EmbeddedResource>
@@ -182,6 +197,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frmRecuperarMascota.resx">
       <DependentUpon>frmRecuperarMascota.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mensajes\FrmMensaje.resx">
+      <DependentUpon>FrmMensaje.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
@@ -227,6 +245,10 @@
     <None Include="Resources\guardar.png" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\Entidades\Entidades.vbproj">
+      <Project>{e21b021a-b46a-442a-992d-8bdb8e1164f7}</Project>
+      <Name>Entidades</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Negocios\Negocios.vbproj">
       <Project>{8d5b014f-86e9-4d50-99f0-276c16461357}</Project>
       <Name>Negocios</Name>

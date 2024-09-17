@@ -22,9 +22,9 @@ Partial Class frmRazas
     'No lo modifique con el editor de código.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Dim ChartArea2 As System.Windows.Forms.DataVisualization.Charting.ChartArea = New System.Windows.Forms.DataVisualization.Charting.ChartArea()
-        Dim Legend2 As System.Windows.Forms.DataVisualization.Charting.Legend = New System.Windows.Forms.DataVisualization.Charting.Legend()
-        Dim Series2 As System.Windows.Forms.DataVisualization.Charting.Series = New System.Windows.Forms.DataVisualization.Charting.Series()
+        Dim ChartArea1 As System.Windows.Forms.DataVisualization.Charting.ChartArea = New System.Windows.Forms.DataVisualization.Charting.ChartArea()
+        Dim Legend1 As System.Windows.Forms.DataVisualization.Charting.Legend = New System.Windows.Forms.DataVisualization.Charting.Legend()
+        Dim Series1 As System.Windows.Forms.DataVisualization.Charting.Series = New System.Windows.Forms.DataVisualization.Charting.Series()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(frmRazas))
         Me.btnCerrar = New System.Windows.Forms.Label()
         Me.Label1 = New System.Windows.Forms.Label()
@@ -43,7 +43,7 @@ Partial Class frmRazas
         Me.btnCerrar.Cursor = System.Windows.Forms.Cursors.Hand
         Me.btnCerrar.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnCerrar.ForeColor = System.Drawing.Color.DimGray
-        Me.btnCerrar.Location = New System.Drawing.Point(2, 9)
+        Me.btnCerrar.Location = New System.Drawing.Point(11, 4)
         Me.btnCerrar.Name = "btnCerrar"
         Me.btnCerrar.Size = New System.Drawing.Size(20, 20)
         Me.btnCerrar.TabIndex = 1
@@ -54,7 +54,7 @@ Partial Class frmRazas
         Me.Label1.AutoSize = True
         Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label1.ForeColor = System.Drawing.Color.Gray
-        Me.Label1.Location = New System.Drawing.Point(282, 5)
+        Me.Label1.Location = New System.Drawing.Point(457, 4)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(187, 25)
         Me.Label1.TabIndex = 5
@@ -63,17 +63,17 @@ Partial Class frmRazas
         '
         'Chart1
         '
-        ChartArea2.Name = "ChartArea1"
-        Me.Chart1.ChartAreas.Add(ChartArea2)
-        Legend2.Name = "Legend1"
-        Me.Chart1.Legends.Add(Legend2)
-        Me.Chart1.Location = New System.Drawing.Point(27, 83)
+        ChartArea1.Name = "ChartArea1"
+        Me.Chart1.ChartAreas.Add(ChartArea1)
+        Legend1.Name = "Legend1"
+        Me.Chart1.Legends.Add(Legend1)
+        Me.Chart1.Location = New System.Drawing.Point(15, 134)
         Me.Chart1.Name = "Chart1"
-        Series2.ChartArea = "ChartArea1"
-        Series2.Legend = "Legend1"
-        Series2.Name = "Series1"
-        Me.Chart1.Series.Add(Series2)
-        Me.Chart1.Size = New System.Drawing.Size(300, 300)
+        Series1.ChartArea = "ChartArea1"
+        Series1.Legend = "Legend1"
+        Series1.Name = "Series1"
+        Me.Chart1.Series.Add(Series1)
+        Me.Chart1.Size = New System.Drawing.Size(324, 329)
         Me.Chart1.TabIndex = 13
         Me.Chart1.Text = "Chart1"
         '
@@ -95,19 +95,19 @@ Partial Class frmRazas
         Me.Panel3.Controls.Add(Me.pictureBox1)
         Me.Panel3.Dock = System.Windows.Forms.DockStyle.Bottom
         Me.Panel3.ForeColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(128, Byte), Integer))
-        Me.Panel3.Location = New System.Drawing.Point(0, 481)
+        Me.Panel3.Location = New System.Drawing.Point(0, 486)
         Me.Panel3.Name = "Panel3"
-        Me.Panel3.Size = New System.Drawing.Size(1103, 79)
+        Me.Panel3.Size = New System.Drawing.Size(1103, 74)
         Me.Panel3.TabIndex = 15
         '
         'pictureBox1
         '
         Me.pictureBox1.BackColor = System.Drawing.Color.Transparent
         Me.pictureBox1.Image = CType(resources.GetObject("pictureBox1.Image"), System.Drawing.Image)
-        Me.pictureBox1.Location = New System.Drawing.Point(1036, 16)
+        Me.pictureBox1.Location = New System.Drawing.Point(1046, 20)
         Me.pictureBox1.Margin = New System.Windows.Forms.Padding(2)
         Me.pictureBox1.Name = "pictureBox1"
-        Me.pictureBox1.Size = New System.Drawing.Size(56, 52)
+        Me.pictureBox1.Size = New System.Drawing.Size(46, 43)
         Me.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.pictureBox1.TabIndex = 16
         Me.pictureBox1.TabStop = False
