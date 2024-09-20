@@ -24,12 +24,13 @@ Partial Class FrmMensaje
     Private Sub InitializeComponent()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(FrmMensaje))
         Me.PanelBarraTitulo = New System.Windows.Forms.Panel()
-        Me.btnRestaurar = New System.Windows.Forms.Button()
         Me.btnCerrar = New System.Windows.Forms.Button()
+        Me.btnRestaurar = New System.Windows.Forms.Button()
         Me.btacept = New System.Windows.Forms.Button()
         Me.btnrechazar = New System.Windows.Forms.Button()
         Me.lblsj = New System.Windows.Forms.Label()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
+        Me.Label1 = New System.Windows.Forms.Label()
         Me.PanelBarraTitulo.SuspendLayout()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
@@ -37,6 +38,7 @@ Partial Class FrmMensaje
         'PanelBarraTitulo
         '
         Me.PanelBarraTitulo.BackColor = System.Drawing.Color.FromArgb(CType(CType(13, Byte), Integer), CType(CType(93, Byte), Integer), CType(CType(142, Byte), Integer))
+        Me.PanelBarraTitulo.Controls.Add(Me.Label1)
         Me.PanelBarraTitulo.Controls.Add(Me.btnCerrar)
         Me.PanelBarraTitulo.Controls.Add(Me.btnRestaurar)
         Me.PanelBarraTitulo.Dock = System.Windows.Forms.DockStyle.Top
@@ -44,22 +46,6 @@ Partial Class FrmMensaje
         Me.PanelBarraTitulo.Name = "PanelBarraTitulo"
         Me.PanelBarraTitulo.Size = New System.Drawing.Size(815, 47)
         Me.PanelBarraTitulo.TabIndex = 2
-        '
-        'btnRestaurar
-        '
-        Me.btnRestaurar.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.btnRestaurar.FlatAppearance.BorderSize = 0
-        Me.btnRestaurar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.DarkGoldenrod
-        Me.btnRestaurar.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btnRestaurar.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnRestaurar.ForeColor = System.Drawing.Color.White
-        Me.btnRestaurar.Location = New System.Drawing.Point(732, 0)
-        Me.btnRestaurar.Name = "btnRestaurar"
-        Me.btnRestaurar.Size = New System.Drawing.Size(40, 40)
-        Me.btnRestaurar.TabIndex = 7
-        Me.btnRestaurar.Text = ""
-        Me.btnRestaurar.UseVisualStyleBackColor = True
-        Me.btnRestaurar.Visible = False
         '
         'btnCerrar
         '
@@ -76,6 +62,22 @@ Partial Class FrmMensaje
         Me.btnCerrar.Size = New System.Drawing.Size(40, 40)
         Me.btnCerrar.TabIndex = 4
         Me.btnCerrar.UseVisualStyleBackColor = True
+        '
+        'btnRestaurar
+        '
+        Me.btnRestaurar.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.btnRestaurar.FlatAppearance.BorderSize = 0
+        Me.btnRestaurar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.DarkGoldenrod
+        Me.btnRestaurar.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btnRestaurar.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnRestaurar.ForeColor = System.Drawing.Color.White
+        Me.btnRestaurar.Location = New System.Drawing.Point(732, 0)
+        Me.btnRestaurar.Name = "btnRestaurar"
+        Me.btnRestaurar.Size = New System.Drawing.Size(40, 40)
+        Me.btnRestaurar.TabIndex = 7
+        Me.btnRestaurar.Text = ""
+        Me.btnRestaurar.UseVisualStyleBackColor = True
+        Me.btnRestaurar.Visible = False
         '
         'btacept
         '
@@ -105,7 +107,7 @@ Partial Class FrmMensaje
         '
         Me.lblsj.AutoSize = True
         Me.lblsj.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.0!)
-        Me.lblsj.Location = New System.Drawing.Point(57, 106)
+        Me.lblsj.Location = New System.Drawing.Point(22, 98)
         Me.lblsj.Name = "lblsj"
         Me.lblsj.Size = New System.Drawing.Size(87, 25)
         Me.lblsj.TabIndex = 5
@@ -121,6 +123,16 @@ Partial Class FrmMensaje
         Me.PictureBox1.TabIndex = 6
         Me.PictureBox1.TabStop = False
         '
+        'Label1
+        '
+        Me.Label1.AutoSize = True
+        Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.0!)
+        Me.Label1.Location = New System.Drawing.Point(22, 9)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(87, 25)
+        Me.Label1.TabIndex = 7
+        Me.Label1.Text = "Mensaje"
+        '
         'FrmMensaje
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -135,6 +147,7 @@ Partial Class FrmMensaje
         Me.Name = "FrmMensaje"
         Me.Text = "FrmMensaje"
         Me.PanelBarraTitulo.ResumeLayout(False)
+        Me.PanelBarraTitulo.PerformLayout()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
@@ -148,4 +161,5 @@ Partial Class FrmMensaje
     Friend WithEvents btnrechazar As Button
     Friend WithEvents lblsj As Label
     Friend WithEvents PictureBox1 As PictureBox
+    Friend WithEvents Label1 As Label
 End Class

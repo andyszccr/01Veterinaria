@@ -74,6 +74,12 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Formularios\FrmMascota.Designer.vb">
+      <DependentUpon>FrmMascota.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\FrmMascota.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="frmAcercaDE.Designer.vb">
       <DependentUpon>frmAcercaDE.vb</DependentUpon>
     </Compile>
@@ -123,10 +129,10 @@
     <Compile Include="frmMascotas.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmRazas.Designer.vb">
+    <Compile Include="Formularios\frmRazas.Designer.vb">
       <DependentUpon>frmRazas.vb</DependentUpon>
     </Compile>
-    <Compile Include="frmRazas.vb">
+    <Compile Include="Formularios\frmRazas.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="frmRecuperar.Designer.vb">
@@ -165,6 +171,9 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="Formularios\FrmMascota.resx">
+      <DependentUpon>FrmMascota.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmAcercaDE.resx">
       <DependentUpon>frmAcercaDE.vb</DependentUpon>
     </EmbeddedResource>
@@ -189,7 +198,7 @@
     <EmbeddedResource Include="frmMascotas.resx">
       <DependentUpon>frmMascotas.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmRazas.resx">
+    <EmbeddedResource Include="Formularios\frmRazas.resx">
       <DependentUpon>frmRazas.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmRecuperar.resx">
@@ -257,5 +266,6 @@
   <ItemGroup>
     <None Include="Resources\iamgen.jpg" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>

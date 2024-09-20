@@ -39,3 +39,6 @@ D:\Documentos\01 Proyectos\01-Veterinaria\Negocios\obj\Debug\Negocios.vbproj.Up2
 D:\Documentos\01 Proyectos\01-Veterinaria\Negocios\obj\Debug\Negocios.dll
 D:\Documentos\01 Proyectos\01-Veterinaria\Negocios\obj\Debug\Negocios.xml
 D:\Documentos\01 Proyectos\01-Veterinaria\Negocios\obj\Debug\Negocios.pdb
+D:\Documentos\01 Proyectos\01-Veterinaria\Negocios\bin\Debug\Entidades.dll
+D:\Documentos\01 Proyectos\01-Veterinaria\Negocios\bin\Debug\Entidades.pdb
+D:\Documentos\01 Proyectos\01-Veterinaria\Negocios\bin\Debug\Entidades.xml

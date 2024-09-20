@@ -2,9 +2,13 @@
 #Region "Variables"
     Private accion As String
     Private msj As String
+    Private msjAccion As String
     Private nombre As String
     Private email As String
     Private version As String
+    Private FechaCreate As DateTime? = Nothing
+    Private FechaUpate As DateTime? = Nothing
+    Private FechaDelete As DateTime? = Nothing
 #End Region
 
 #Region "Propiedades"
@@ -52,6 +56,42 @@
         End Get
         Set(value As String)
             version = value
+        End Set
+    End Property
+
+    Public Property _msjAccion As String
+        Get
+            Return msjAccion
+        End Get
+        Set(value As String)
+            msjAccion = value
+        End Set
+    End Property
+
+    Public Property _FechaCreate As DateTime
+        Get
+            Return FechaCreate
+        End Get
+        Set(value As Date)
+            FechaCreate = value
+        End Set
+    End Property
+
+    Public Property _FechaUpate As DateTime
+        Get
+            Return FechaUpate
+        End Get
+        Set(value As Date)
+            FechaUpate = value
+        End Set
+    End Property
+
+    Public Property _FechaDelete As DateTime
+        Get
+            Return FechaDelete
+        End Get
+        Set(value As Date)
+            FechaDelete = value
         End Set
     End Property
 #End Region

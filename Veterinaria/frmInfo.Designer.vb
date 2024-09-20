@@ -25,7 +25,6 @@ Partial Class frmInfo
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(frmInfo))
         Me.btnCerrar = New System.Windows.Forms.Label()
         Me.Panel3 = New System.Windows.Forms.Panel()
-        Me.pictureBox1 = New System.Windows.Forms.PictureBox()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Label3 = New System.Windows.Forms.Label()
@@ -33,6 +32,7 @@ Partial Class frmInfo
         Me.txtDesarrollador = New System.Windows.Forms.TextBox()
         Me.txtVersion = New System.Windows.Forms.TextBox()
         Me.TxtEmail = New System.Windows.Forms.TextBox()
+        Me.pictureBox1 = New System.Windows.Forms.PictureBox()
         Me.PictureBox2 = New System.Windows.Forms.PictureBox()
         Me.Panel3.SuspendLayout()
         CType(Me.pictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -57,22 +57,10 @@ Partial Class frmInfo
         Me.Panel3.Controls.Add(Me.pictureBox1)
         Me.Panel3.Dock = System.Windows.Forms.DockStyle.Bottom
         Me.Panel3.ForeColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(128, Byte), Integer))
-        Me.Panel3.Location = New System.Drawing.Point(0, 486)
+        Me.Panel3.Location = New System.Drawing.Point(0, 487)
         Me.Panel3.Name = "Panel3"
-        Me.Panel3.Size = New System.Drawing.Size(1103, 74)
+        Me.Panel3.Size = New System.Drawing.Size(1103, 73)
         Me.Panel3.TabIndex = 16
-        '
-        'pictureBox1
-        '
-        Me.pictureBox1.BackColor = System.Drawing.Color.Transparent
-        Me.pictureBox1.Image = CType(resources.GetObject("pictureBox1.Image"), System.Drawing.Image)
-        Me.pictureBox1.Location = New System.Drawing.Point(1046, 20)
-        Me.pictureBox1.Margin = New System.Windows.Forms.Padding(2)
-        Me.pictureBox1.Name = "pictureBox1"
-        Me.pictureBox1.Size = New System.Drawing.Size(46, 43)
-        Me.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.pictureBox1.TabIndex = 16
-        Me.pictureBox1.TabStop = False
         '
         'Label1
         '
@@ -143,6 +131,18 @@ Partial Class frmInfo
         Me.TxtEmail.Name = "TxtEmail"
         Me.TxtEmail.Size = New System.Drawing.Size(306, 30)
         Me.TxtEmail.TabIndex = 23
+        '
+        'pictureBox1
+        '
+        Me.pictureBox1.BackColor = System.Drawing.Color.Transparent
+        Me.pictureBox1.Image = CType(resources.GetObject("pictureBox1.Image"), System.Drawing.Image)
+        Me.pictureBox1.Location = New System.Drawing.Point(1040, 16)
+        Me.pictureBox1.Margin = New System.Windows.Forms.Padding(2)
+        Me.pictureBox1.Name = "pictureBox1"
+        Me.pictureBox1.Size = New System.Drawing.Size(52, 46)
+        Me.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.pictureBox1.TabIndex = 16
+        Me.pictureBox1.TabStop = False
         '
         'PictureBox2
         '

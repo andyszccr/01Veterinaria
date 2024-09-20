@@ -65,7 +65,7 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Datos\DRoles.vb" />
+    <Compile Include="BaseDatos\ConexionSQL.vb" />
     <Compile Include="DConexionDB.vb" />
     <Compile Include="Archivos\DXML.vb" />
     <Compile Include="XMLdato.vb" />
@@ -111,8 +111,6 @@
       <Name>Entidades</Name>
     </ProjectReference>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Formularios\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>

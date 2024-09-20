@@ -95,3 +95,4 @@ D:\Documentos\01 Proyectos\01-Veterinaria\Veterinaria\obj\Debug\Veterina.C10E9B9
 D:\Documentos\01 Proyectos\01-Veterinaria\Veterinaria\obj\Debug\Veterinaria.frmRazas.resources
 D:\Documentos\01 Proyectos\01-Veterinaria\Veterinaria\obj\Debug\Veterinaria.frmInfo.resources
 D:\Documentos\01 Proyectos\01-Veterinaria\Veterinaria\obj\Debug\Veterinaria.FrmMensaje.resources
+D:\Documentos\01 Proyectos\01-Veterinaria\Veterinaria\obj\Debug\Veterinaria.FrmMascota.resources

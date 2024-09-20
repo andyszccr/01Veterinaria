@@ -30,6 +30,7 @@ Partial Class FrmInicio
         Me.panelformularios = New System.Windows.Forms.Panel()
         Me.PictureBox2 = New System.Windows.Forms.PictureBox()
         Me.PanelMenu = New System.Windows.Forms.Panel()
+        Me.Panel1 = New System.Windows.Forms.Panel()
         Me.btnSettings = New System.Windows.Forms.Button()
         Me.btnInfo = New System.Windows.Forms.Button()
         Me.Button5 = New System.Windows.Forms.Button()
@@ -43,13 +44,12 @@ Partial Class FrmInicio
         Me.Panel3 = New System.Windows.Forms.Panel()
         Me.Button2 = New System.Windows.Forms.Button()
         Me.Panel2 = New System.Windows.Forms.Panel()
-        Me.btnProductos = New System.Windows.Forms.Button()
+        Me.btnMascotas = New System.Windows.Forms.Button()
         Me.Panel10 = New System.Windows.Forms.Panel()
         Me.btnDashBoard = New System.Windows.Forms.Button()
         Me.PanelBarraTitulo = New System.Windows.Forms.Panel()
         Me.btnCerrar = New System.Windows.Forms.Button()
         Me.btnRestaurar = New System.Windows.Forms.Button()
-        Me.Panel1 = New System.Windows.Forms.Panel()
         Me.PanelContenedor.SuspendLayout()
         Me.panelformularios.SuspendLayout()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -118,7 +118,7 @@ Partial Class FrmInicio
         Me.PanelMenu.Controls.Add(Me.Panel3)
         Me.PanelMenu.Controls.Add(Me.Button2)
         Me.PanelMenu.Controls.Add(Me.Panel2)
-        Me.PanelMenu.Controls.Add(Me.btnProductos)
+        Me.PanelMenu.Controls.Add(Me.btnMascotas)
         Me.PanelMenu.Controls.Add(Me.Panel10)
         Me.PanelMenu.Controls.Add(Me.btnDashBoard)
         Me.PanelMenu.Dock = System.Windows.Forms.DockStyle.Left
@@ -126,6 +126,14 @@ Partial Class FrmInicio
         Me.PanelMenu.Name = "PanelMenu"
         Me.PanelMenu.Size = New System.Drawing.Size(220, 560)
         Me.PanelMenu.TabIndex = 2
+        '
+        'Panel1
+        '
+        Me.Panel1.BackColor = System.Drawing.Color.White
+        Me.Panel1.Location = New System.Drawing.Point(0, 413)
+        Me.Panel1.Name = "Panel1"
+        Me.Panel1.Size = New System.Drawing.Size(5, 50)
+        Me.Panel1.TabIndex = 12
         '
         'btnSettings
         '
@@ -310,24 +318,24 @@ Partial Class FrmInicio
         Me.Panel2.Size = New System.Drawing.Size(5, 50)
         Me.Panel2.TabIndex = 3
         '
-        'btnProductos
+        'btnMascotas
         '
-        Me.btnProductos.FlatAppearance.BorderSize = 0
-        Me.btnProductos.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(CType(CType(145, Byte), Integer), CType(CType(110, Byte), Integer), CType(CType(21, Byte), Integer))
-        Me.btnProductos.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(44, Byte), Integer), CType(CType(55, Byte), Integer), CType(CType(70, Byte), Integer))
-        Me.btnProductos.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btnProductos.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnProductos.ForeColor = System.Drawing.Color.White
-        Me.btnProductos.Image = CType(resources.GetObject("btnProductos.Image"), System.Drawing.Image)
-        Me.btnProductos.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.btnProductos.Location = New System.Drawing.Point(0, 133)
-        Me.btnProductos.Name = "btnProductos"
-        Me.btnProductos.Size = New System.Drawing.Size(220, 50)
-        Me.btnProductos.TabIndex = 2
-        Me.btnProductos.Text = "  Productos"
-        Me.btnProductos.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.btnProductos.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText
-        Me.btnProductos.UseVisualStyleBackColor = True
+        Me.btnMascotas.FlatAppearance.BorderSize = 0
+        Me.btnMascotas.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(CType(CType(145, Byte), Integer), CType(CType(110, Byte), Integer), CType(CType(21, Byte), Integer))
+        Me.btnMascotas.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(44, Byte), Integer), CType(CType(55, Byte), Integer), CType(CType(70, Byte), Integer))
+        Me.btnMascotas.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btnMascotas.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnMascotas.ForeColor = System.Drawing.Color.White
+        Me.btnMascotas.Image = CType(resources.GetObject("btnMascotas.Image"), System.Drawing.Image)
+        Me.btnMascotas.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
+        Me.btnMascotas.Location = New System.Drawing.Point(0, 133)
+        Me.btnMascotas.Name = "btnMascotas"
+        Me.btnMascotas.Size = New System.Drawing.Size(220, 50)
+        Me.btnMascotas.TabIndex = 2
+        Me.btnMascotas.Text = "  Mascotas"
+        Me.btnMascotas.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
+        Me.btnMascotas.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText
+        Me.btnMascotas.UseVisualStyleBackColor = True
         '
         'Panel10
         '
@@ -399,14 +407,6 @@ Partial Class FrmInicio
         Me.btnRestaurar.UseVisualStyleBackColor = True
         Me.btnRestaurar.Visible = False
         '
-        'Panel1
-        '
-        Me.Panel1.BackColor = System.Drawing.Color.White
-        Me.Panel1.Location = New System.Drawing.Point(0, 413)
-        Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(5, 50)
-        Me.Panel1.TabIndex = 12
-        '
         'FrmInicio
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -441,7 +441,7 @@ Partial Class FrmInicio
     Friend WithEvents Panel3 As Panel
     Friend WithEvents Button2 As Button
     Friend WithEvents Panel2 As Panel
-    Friend WithEvents btnProductos As Button
+    Friend WithEvents btnMascotas As Button
     Friend WithEvents Panel10 As Panel
     Friend WithEvents btnDashBoard As Button
     Friend WithEvents PanelBarraTitulo As Panel

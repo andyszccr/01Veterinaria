@@ -1,4 +1,7 @@
 ﻿Imports System.Runtime.InteropServices
+Imports Veterinaria.FrmMensaje
+
+
 Public Class FrmInicio
     <DllImport("user32.DLL", EntryPoint:="ReleaseCapture")>
     Private Shared Sub ReleaseCapture()
@@ -56,6 +59,12 @@ Public Class FrmInicio
     Private Sub btnInfo_Click(sender As Object, e As EventArgs) Handles btnInfo.Click
         AbrirFormEnPanel(Of frmInfo)()
     End Sub
+
+    '*****************************************************************************
+    'Boton de Mascotas
+    Private Sub btnMascotas_Click(sender As Object, e As EventArgs) Handles btnMascotas.Click
+        AbrirFormEnPanel(Of FrmMascota)()
+    End Sub
 #End Region
     '*****************************************************************************
 #Region "Metodos Generales"
@@ -111,6 +120,8 @@ Public Class FrmInicio
     Private Sub PanelContenedor_Paint(sender As Object, e As PaintEventArgs) Handles PanelContenedor.Paint
 
     End Sub
+
+
 
     Private Sub tmOCULTAR_Tick(sender As Object, e As EventArgs) Handles tmOCULTAR.Tick
         If PanelMenu.Width <= 60 Then

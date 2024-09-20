@@ -1,6 +1,5 @@
 ﻿Public Class RaceE
 #Region "Variables"
-    Private RaceID As Integer
     Private RaceCode As String
     Private RaceName As String
     Private RaceCreate As DateTime
@@ -10,17 +9,6 @@
 #End Region
 
 #Region "Propiedades"
-    Public Property _RaceID As Integer
-        Get
-            Return RaceID
-        End Get
-        Set(ByVal value As Integer)
-            RaceID = value
-        End Set
-    End Property
-
-
-
     Public Property _RaceCode As String
         Get
             Return RaceCode
