@@ -22,5 +22,16 @@ Negocios
   búsquedas de recursos mediante esta clase de recurso fuertemente tipado.
 </summary>
 </member>
+<member name="M:Negocios.RaceN.mantenimientoRazas(Entidades.RaceE,System.String)">
+ <summary>
+ Metodo para mantenimiento de Razas
+ 1. Opcion 1 crear
+ 2. Opcion 2 modificar
+ 3. Opcion 3 Eliminar
+ </summary>
+ <param name="obje"></param>
+ <param name="vlaccion"></param>
+ <returns></returns>
+</member>
 </members>
 </doc>

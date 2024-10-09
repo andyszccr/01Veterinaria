@@ -24,7 +24,7 @@ Public Class RaceN
     ''' <param name="vlaccion"></param>
     ''' <returns></returns>
 #Region "Mantenimiento de Razas"
-    Public Function mantenimientoRazas(ByVal obje As RaceE, ByVal vlgeneral As Generales) As String
+    Public Function mantenimientoRazas(ByVal obje As RaceE, ByVal vlaccion As String) As String
         Try
             Dim accion As String = ""
             cmdRaza.Connection = Conexion.AbrirConexion()
@@ -36,7 +36,7 @@ Public Class RaceN
             cmdRaza.Parameters.Add(New SqlParameter("@RaceUpdate", obje._RaceUpdate))
             cmdRaza.Parameters.Add(New SqlParameter("@RaceDelete", obje._RaceDelete))
             cmdRaza.Parameters.Add(New SqlParameter("@RaceStatus", obje._RaceStatus))
-            cmdRaza.Parameters.Add("@accion", SqlDbType.VarChar, 50).Value = vlgeneral._accion
+            cmdRaza.Parameters.Add("@accion", SqlDbType.VarChar, 50).Value = vlaccion
             cmdRaza.Parameters("@accion").Direction = ParameterDirection.InputOutput
             If Conexion.Conexion.State = ConnectionState.Open Then Conexion.CerrarConexion()
             Conexion.AbrirConexion()
