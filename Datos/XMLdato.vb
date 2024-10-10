@@ -20,9 +20,6 @@ Public Class XMLdato
     Dim readxml = New XmlTextReader("Dueños.xml")
     Dim readxml2 = New XmlTextReader("Mascotas.xml")
 
-
-
-
     Dim documentxml As New XmlDocument
     Dim Archivoxml As XmlReader
     Dim Dataset As New DataSet
