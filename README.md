@@ -65,11 +65,13 @@ Aqui en este apartado se presenta la paleta de Colores que se van a utilizar en 
 * [Paleta de Colores](https://colorhunt.co/palette/191d881450a3337ccfffc436)
 
 ## Imagenes del proyecto
-![image](https://github.com/user-attachments/assets/db4bfea9-78ce-4797-a0f7-1f2f190a44b6)
+![image](https://github.com/user-attachments/assets/94660e2f-759c-4c08-929d-fbf887ba674c)
 
+->Modulo de mascotas 
+![image](https://github.com/user-attachments/assets/4b2b1e97-d73c-42f0-81a3-5f4cb5b0353a)
 
-![Captura del proyecto](https://github.com/eduardofierropro/Portafolio-y-CV/blob/main/CAPTURA-DEL-PROYECTO.jpg?raw=true)
-![Captura del proyecto](https://github.com/eduardofierropro/Portafolio-y-CV/blob/main/CAPTURA-DEL-PROYECTO.jpg?raw=true)
+->Modulo de Razas
+![image](https://github.com/user-attachments/assets/98f14061-ac18-463c-8fcc-c270d0157edf)
 
 
 
