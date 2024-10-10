@@ -25,29 +25,29 @@ Partial Class FrmMascota
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(FrmMascota))
         Me.Label1 = New System.Windows.Forms.Label()
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
+        Me.cbEncargado = New System.Windows.Forms.ComboBox()
+        Me.Label5 = New System.Windows.Forms.Label()
+        Me.Label3 = New System.Windows.Forms.Label()
+        Me.cbRaza = New System.Windows.Forms.ComboBox()
         Me.GroupBox3 = New System.Windows.Forms.GroupBox()
         Me.rbInactivo = New System.Windows.Forms.RadioButton()
         Me.rbActivo = New System.Windows.Forms.RadioButton()
         Me.GroupBox2 = New System.Windows.Forms.GroupBox()
         Me.btnExport = New System.Windows.Forms.Button()
         Me.btnDelete = New System.Windows.Forms.Button()
-        Me.Button1 = New System.Windows.Forms.Button()
+        Me.btnModificar = New System.Windows.Forms.Button()
         Me.BtnAdd = New System.Windows.Forms.Button()
         Me.btnNew = New System.Windows.Forms.Button()
         Me.Label4 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
-        Me.txtRaza = New System.Windows.Forms.TextBox()
-        Me.txtCodigo = New System.Windows.Forms.TextBox()
-        Me.gvRazas = New System.Windows.Forms.DataGridView()
-        Me.ComboBox1 = New System.Windows.Forms.ComboBox()
-        Me.Label3 = New System.Windows.Forms.Label()
-        Me.Label5 = New System.Windows.Forms.Label()
-        Me.ComboBox2 = New System.Windows.Forms.ComboBox()
+        Me.txtMascota = New System.Windows.Forms.TextBox()
+        Me.txtCodigoMascota = New System.Windows.Forms.TextBox()
+        Me.gvMascotas = New System.Windows.Forms.DataGridView()
         Me.btnCerrar = New System.Windows.Forms.Label()
         Me.GroupBox1.SuspendLayout()
         Me.GroupBox3.SuspendLayout()
         Me.GroupBox2.SuspendLayout()
-        CType(Me.gvRazas, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.gvMascotas, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'Label1
@@ -65,22 +65,62 @@ Partial Class FrmMascota
         'GroupBox1
         '
         Me.GroupBox1.BackColor = System.Drawing.Color.White
-        Me.GroupBox1.Controls.Add(Me.ComboBox2)
+        Me.GroupBox1.Controls.Add(Me.cbEncargado)
         Me.GroupBox1.Controls.Add(Me.Label5)
         Me.GroupBox1.Controls.Add(Me.Label3)
-        Me.GroupBox1.Controls.Add(Me.ComboBox1)
+        Me.GroupBox1.Controls.Add(Me.cbRaza)
         Me.GroupBox1.Controls.Add(Me.GroupBox3)
         Me.GroupBox1.Controls.Add(Me.GroupBox2)
         Me.GroupBox1.Controls.Add(Me.Label4)
         Me.GroupBox1.Controls.Add(Me.Label2)
-        Me.GroupBox1.Controls.Add(Me.txtRaza)
-        Me.GroupBox1.Controls.Add(Me.txtCodigo)
+        Me.GroupBox1.Controls.Add(Me.txtMascota)
+        Me.GroupBox1.Controls.Add(Me.txtCodigoMascota)
         Me.GroupBox1.Location = New System.Drawing.Point(12, 48)
         Me.GroupBox1.Name = "GroupBox1"
         Me.GroupBox1.Size = New System.Drawing.Size(905, 347)
         Me.GroupBox1.TabIndex = 20
         Me.GroupBox1.TabStop = False
         Me.GroupBox1.Text = "Datos de Macotas"
+        '
+        'cbEncargado
+        '
+        Me.cbEncargado.FormattingEnabled = True
+        Me.cbEncargado.Location = New System.Drawing.Point(505, 45)
+        Me.cbEncargado.Name = "cbEncargado"
+        Me.cbEncargado.Size = New System.Drawing.Size(350, 21)
+        Me.cbEncargado.TabIndex = 26
+        '
+        'Label5
+        '
+        Me.Label5.AutoSize = True
+        Me.Label5.BackColor = System.Drawing.Color.White
+        Me.Label5.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label5.ForeColor = System.Drawing.Color.DimGray
+        Me.Label5.Location = New System.Drawing.Point(502, 25)
+        Me.Label5.Name = "Label5"
+        Me.Label5.Size = New System.Drawing.Size(77, 17)
+        Me.Label5.TabIndex = 25
+        Me.Label5.Text = "Encargado"
+        '
+        'Label3
+        '
+        Me.Label3.AutoSize = True
+        Me.Label3.BackColor = System.Drawing.Color.White
+        Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label3.ForeColor = System.Drawing.Color.DimGray
+        Me.Label3.Location = New System.Drawing.Point(18, 132)
+        Me.Label3.Name = "Label3"
+        Me.Label3.Size = New System.Drawing.Size(41, 17)
+        Me.Label3.TabIndex = 24
+        Me.Label3.Text = "Raza"
+        '
+        'cbRaza
+        '
+        Me.cbRaza.FormattingEnabled = True
+        Me.cbRaza.Location = New System.Drawing.Point(21, 152)
+        Me.cbRaza.Name = "cbRaza"
+        Me.cbRaza.Size = New System.Drawing.Size(350, 21)
+        Me.cbRaza.TabIndex = 23
         '
         'GroupBox3
         '
@@ -121,7 +161,7 @@ Partial Class FrmMascota
         '
         Me.GroupBox2.Controls.Add(Me.btnExport)
         Me.GroupBox2.Controls.Add(Me.btnDelete)
-        Me.GroupBox2.Controls.Add(Me.Button1)
+        Me.GroupBox2.Controls.Add(Me.btnModificar)
         Me.GroupBox2.Controls.Add(Me.BtnAdd)
         Me.GroupBox2.Controls.Add(Me.btnNew)
         Me.GroupBox2.Location = New System.Drawing.Point(21, 234)
@@ -149,19 +189,19 @@ Partial Class FrmMascota
         Me.btnDelete.Name = "btnDelete"
         Me.btnDelete.Size = New System.Drawing.Size(158, 43)
         Me.btnDelete.TabIndex = 7
-        Me.btnDelete.Text = "Agregar"
+        Me.btnDelete.Text = "Borrar"
         Me.btnDelete.UseVisualStyleBackColor = True
         '
-        'Button1
+        'btnModificar
         '
-        Me.Button1.Image = CType(resources.GetObject("Button1.Image"), System.Drawing.Image)
-        Me.Button1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.Button1.Location = New System.Drawing.Point(343, 33)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(158, 43)
-        Me.Button1.TabIndex = 6
-        Me.Button1.Text = "Agregar"
-        Me.Button1.UseVisualStyleBackColor = True
+        Me.btnModificar.Image = CType(resources.GetObject("btnModificar.Image"), System.Drawing.Image)
+        Me.btnModificar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
+        Me.btnModificar.Location = New System.Drawing.Point(343, 33)
+        Me.btnModificar.Name = "btnModificar"
+        Me.btnModificar.Size = New System.Drawing.Size(158, 43)
+        Me.btnModificar.TabIndex = 6
+        Me.btnModificar.Text = "Modificar"
+        Me.btnModificar.UseVisualStyleBackColor = True
         '
         'BtnAdd
         '
@@ -209,70 +249,30 @@ Partial Class FrmMascota
         Me.Label2.TabIndex = 18
         Me.Label2.Text = "Codigo de Macota"
         '
-        'txtRaza
+        'txtMascota
         '
-        Me.txtRaza.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!)
-        Me.txtRaza.Location = New System.Drawing.Point(21, 98)
-        Me.txtRaza.Name = "txtRaza"
-        Me.txtRaza.Size = New System.Drawing.Size(350, 22)
-        Me.txtRaza.TabIndex = 20
+        Me.txtMascota.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!)
+        Me.txtMascota.Location = New System.Drawing.Point(21, 98)
+        Me.txtMascota.Name = "txtMascota"
+        Me.txtMascota.Size = New System.Drawing.Size(350, 22)
+        Me.txtMascota.TabIndex = 20
         '
-        'txtCodigo
+        'txtCodigoMascota
         '
-        Me.txtCodigo.Enabled = False
-        Me.txtCodigo.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtCodigo.Location = New System.Drawing.Point(21, 45)
-        Me.txtCodigo.Name = "txtCodigo"
-        Me.txtCodigo.Size = New System.Drawing.Size(350, 22)
-        Me.txtCodigo.TabIndex = 16
+        Me.txtCodigoMascota.Enabled = False
+        Me.txtCodigoMascota.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtCodigoMascota.Location = New System.Drawing.Point(21, 45)
+        Me.txtCodigoMascota.Name = "txtCodigoMascota"
+        Me.txtCodigoMascota.Size = New System.Drawing.Size(350, 22)
+        Me.txtCodigoMascota.TabIndex = 16
         '
-        'gvRazas
+        'gvMascotas
         '
-        Me.gvRazas.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.gvRazas.Location = New System.Drawing.Point(12, 401)
-        Me.gvRazas.Name = "gvRazas"
-        Me.gvRazas.Size = New System.Drawing.Size(905, 137)
-        Me.gvRazas.TabIndex = 21
-        '
-        'ComboBox1
-        '
-        Me.ComboBox1.FormattingEnabled = True
-        Me.ComboBox1.Location = New System.Drawing.Point(21, 152)
-        Me.ComboBox1.Name = "ComboBox1"
-        Me.ComboBox1.Size = New System.Drawing.Size(350, 21)
-        Me.ComboBox1.TabIndex = 23
-        '
-        'Label3
-        '
-        Me.Label3.AutoSize = True
-        Me.Label3.BackColor = System.Drawing.Color.White
-        Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label3.ForeColor = System.Drawing.Color.DimGray
-        Me.Label3.Location = New System.Drawing.Point(18, 132)
-        Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(41, 17)
-        Me.Label3.TabIndex = 24
-        Me.Label3.Text = "Raza"
-        '
-        'Label5
-        '
-        Me.Label5.AutoSize = True
-        Me.Label5.BackColor = System.Drawing.Color.White
-        Me.Label5.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label5.ForeColor = System.Drawing.Color.DimGray
-        Me.Label5.Location = New System.Drawing.Point(502, 25)
-        Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(77, 17)
-        Me.Label5.TabIndex = 25
-        Me.Label5.Text = "Encargado"
-        '
-        'ComboBox2
-        '
-        Me.ComboBox2.FormattingEnabled = True
-        Me.ComboBox2.Location = New System.Drawing.Point(505, 45)
-        Me.ComboBox2.Name = "ComboBox2"
-        Me.ComboBox2.Size = New System.Drawing.Size(350, 21)
-        Me.ComboBox2.TabIndex = 26
+        Me.gvMascotas.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
+        Me.gvMascotas.Location = New System.Drawing.Point(12, 401)
+        Me.gvMascotas.Name = "gvMascotas"
+        Me.gvMascotas.Size = New System.Drawing.Size(905, 137)
+        Me.gvMascotas.TabIndex = 21
         '
         'btnCerrar
         '
@@ -292,7 +292,7 @@ Partial Class FrmMascota
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(1103, 560)
         Me.Controls.Add(Me.btnCerrar)
-        Me.Controls.Add(Me.gvRazas)
+        Me.Controls.Add(Me.gvMascotas)
         Me.Controls.Add(Me.GroupBox1)
         Me.Controls.Add(Me.Label1)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
@@ -303,7 +303,7 @@ Partial Class FrmMascota
         Me.GroupBox3.ResumeLayout(False)
         Me.GroupBox3.PerformLayout()
         Me.GroupBox2.ResumeLayout(False)
-        CType(Me.gvRazas, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.gvMascotas, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -317,17 +317,17 @@ Partial Class FrmMascota
     Friend WithEvents GroupBox2 As GroupBox
     Friend WithEvents btnExport As Button
     Friend WithEvents btnDelete As Button
-    Friend WithEvents Button1 As Button
+    Friend WithEvents btnModificar As Button
     Friend WithEvents BtnAdd As Button
     Friend WithEvents btnNew As Button
     Friend WithEvents Label4 As Label
     Friend WithEvents Label2 As Label
-    Friend WithEvents txtRaza As TextBox
-    Friend WithEvents txtCodigo As TextBox
-    Friend WithEvents gvRazas As DataGridView
-    Friend WithEvents ComboBox2 As ComboBox
+    Friend WithEvents txtMascota As TextBox
+    Friend WithEvents txtCodigoMascota As TextBox
+    Friend WithEvents gvMascotas As DataGridView
+    Friend WithEvents cbEncargado As ComboBox
     Friend WithEvents Label5 As Label
     Friend WithEvents Label3 As Label
-    Friend WithEvents ComboBox1 As ComboBox
+    Friend WithEvents cbRaza As ComboBox
     Friend WithEvents btnCerrar As Label
 End Class
