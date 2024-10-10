@@ -50,6 +50,10 @@ Partial Class FrmInicio
         Me.PanelBarraTitulo = New System.Windows.Forms.Panel()
         Me.btnCerrar = New System.Windows.Forms.Button()
         Me.btnRestaurar = New System.Windows.Forms.Button()
+        Me.Panel7 = New System.Windows.Forms.Panel()
+        Me.Button6 = New System.Windows.Forms.Button()
+        Me.Panel8 = New System.Windows.Forms.Panel()
+        Me.Button7 = New System.Windows.Forms.Button()
         Me.PanelContenedor.SuspendLayout()
         Me.panelformularios.SuspendLayout()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -74,7 +78,7 @@ Partial Class FrmInicio
         Me.PanelContenedor.Dock = System.Windows.Forms.DockStyle.Fill
         Me.PanelContenedor.Location = New System.Drawing.Point(0, 0)
         Me.PanelContenedor.Name = "PanelContenedor"
-        Me.PanelContenedor.Size = New System.Drawing.Size(1150, 600)
+        Me.PanelContenedor.Size = New System.Drawing.Size(1158, 726)
         Me.PanelContenedor.TabIndex = 4
         '
         'panelformularios
@@ -87,16 +91,16 @@ Partial Class FrmInicio
         Me.panelformularios.Dock = System.Windows.Forms.DockStyle.Fill
         Me.panelformularios.Location = New System.Drawing.Point(0, 0)
         Me.panelformularios.Name = "panelformularios"
-        Me.panelformularios.Size = New System.Drawing.Size(1150, 600)
+        Me.panelformularios.Size = New System.Drawing.Size(1158, 726)
         Me.panelformularios.TabIndex = 3
         '
         'PictureBox2
         '
         Me.PictureBox2.Image = CType(resources.GetObject("PictureBox2.Image"), System.Drawing.Image)
-        Me.PictureBox2.Location = New System.Drawing.Point(387, 95)
+        Me.PictureBox2.Location = New System.Drawing.Point(314, 84)
         Me.PictureBox2.Margin = New System.Windows.Forms.Padding(2)
         Me.PictureBox2.Name = "PictureBox2"
-        Me.PictureBox2.Size = New System.Drawing.Size(654, 425)
+        Me.PictureBox2.Size = New System.Drawing.Size(738, 531)
         Me.PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.PictureBox2.TabIndex = 4
         Me.PictureBox2.TabStop = False
@@ -104,6 +108,10 @@ Partial Class FrmInicio
         'PanelMenu
         '
         Me.PanelMenu.BackColor = System.Drawing.Color.FromArgb(CType(CType(37, Byte), Integer), CType(CType(46, Byte), Integer), CType(CType(59, Byte), Integer))
+        Me.PanelMenu.Controls.Add(Me.Button7)
+        Me.PanelMenu.Controls.Add(Me.Panel8)
+        Me.PanelMenu.Controls.Add(Me.Button6)
+        Me.PanelMenu.Controls.Add(Me.Panel7)
         Me.PanelMenu.Controls.Add(Me.Panel1)
         Me.PanelMenu.Controls.Add(Me.btnSettings)
         Me.PanelMenu.Controls.Add(Me.btnInfo)
@@ -124,7 +132,7 @@ Partial Class FrmInicio
         Me.PanelMenu.Dock = System.Windows.Forms.DockStyle.Left
         Me.PanelMenu.Location = New System.Drawing.Point(0, 40)
         Me.PanelMenu.Name = "PanelMenu"
-        Me.PanelMenu.Size = New System.Drawing.Size(220, 560)
+        Me.PanelMenu.Size = New System.Drawing.Size(220, 686)
         Me.PanelMenu.TabIndex = 2
         '
         'Panel1
@@ -145,7 +153,7 @@ Partial Class FrmInicio
         Me.btnSettings.ForeColor = System.Drawing.Color.White
         Me.btnSettings.Image = CType(resources.GetObject("btnSettings.Image"), System.Drawing.Image)
         Me.btnSettings.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.btnSettings.Location = New System.Drawing.Point(124, 510)
+        Me.btnSettings.Location = New System.Drawing.Point(121, 636)
         Me.btnSettings.Name = "btnSettings"
         Me.btnSettings.Size = New System.Drawing.Size(41, 47)
         Me.btnSettings.TabIndex = 16
@@ -163,7 +171,7 @@ Partial Class FrmInicio
         Me.btnInfo.ForeColor = System.Drawing.Color.White
         Me.btnInfo.Image = CType(resources.GetObject("btnInfo.Image"), System.Drawing.Image)
         Me.btnInfo.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.btnInfo.Location = New System.Drawing.Point(171, 510)
+        Me.btnInfo.Location = New System.Drawing.Point(176, 636)
         Me.btnInfo.Name = "btnInfo"
         Me.btnInfo.Size = New System.Drawing.Size(41, 47)
         Me.btnInfo.TabIndex = 15
@@ -183,9 +191,9 @@ Partial Class FrmInicio
         Me.Button5.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
         Me.Button5.Location = New System.Drawing.Point(3, 413)
         Me.Button5.Name = "Button5"
-        Me.Button5.Size = New System.Drawing.Size(220, 50)
+        Me.Button5.Size = New System.Drawing.Size(217, 50)
         Me.Button5.TabIndex = 14
-        Me.Button5.Text = "  Empleados"
+        Me.Button5.Text = "      Inventario"
         Me.Button5.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
         Me.Button5.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText
         Me.Button5.UseVisualStyleBackColor = True
@@ -224,7 +232,7 @@ Partial Class FrmInicio
         Me.Button4.Name = "Button4"
         Me.Button4.Size = New System.Drawing.Size(220, 50)
         Me.Button4.TabIndex = 10
-        Me.Button4.Text = "  Empleados"
+        Me.Button4.Text = "      Medicinas"
         Me.Button4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
         Me.Button4.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText
         Me.Button4.UseVisualStyleBackColor = True
@@ -251,7 +259,7 @@ Partial Class FrmInicio
         Me.Button3.Name = "Button3"
         Me.Button3.Size = New System.Drawing.Size(220, 50)
         Me.Button3.TabIndex = 8
-        Me.Button3.Text = "  Compras"
+        Me.Button3.Text = "     Tratamientos"
         Me.Button3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
         Me.Button3.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText
         Me.Button3.UseVisualStyleBackColor = True
@@ -278,7 +286,7 @@ Partial Class FrmInicio
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(220, 50)
         Me.Button1.TabIndex = 6
-        Me.Button1.Text = "  Clientes"
+        Me.Button1.Text = "     Empleados"
         Me.Button1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
         Me.Button1.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText
         Me.Button1.UseVisualStyleBackColor = True
@@ -305,7 +313,7 @@ Partial Class FrmInicio
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(220, 50)
         Me.Button2.TabIndex = 4
-        Me.Button2.Text = "  Ventas"
+        Me.Button2.Text = "     Clientes"
         Me.Button2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
         Me.Button2.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText
         Me.Button2.UseVisualStyleBackColor = True
@@ -332,8 +340,8 @@ Partial Class FrmInicio
         Me.btnMascotas.Name = "btnMascotas"
         Me.btnMascotas.Size = New System.Drawing.Size(220, 50)
         Me.btnMascotas.TabIndex = 2
-        Me.btnMascotas.Text = "  Mascotas"
-        Me.btnMascotas.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
+        Me.btnMascotas.Text = "     Mascotas"
+        Me.btnMascotas.TextAlign = System.Drawing.ContentAlignment.MiddleRight
         Me.btnMascotas.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText
         Me.btnMascotas.UseVisualStyleBackColor = True
         '
@@ -359,8 +367,8 @@ Partial Class FrmInicio
         Me.btnDashBoard.Name = "btnDashBoard"
         Me.btnDashBoard.Size = New System.Drawing.Size(220, 50)
         Me.btnDashBoard.TabIndex = 0
-        Me.btnDashBoard.Text = "  Razas"
-        Me.btnDashBoard.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
+        Me.btnDashBoard.Text = "     Razas"
+        Me.btnDashBoard.TextAlign = System.Drawing.ContentAlignment.MiddleRight
         Me.btnDashBoard.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText
         Me.btnDashBoard.UseVisualStyleBackColor = True
         '
@@ -372,7 +380,7 @@ Partial Class FrmInicio
         Me.PanelBarraTitulo.Dock = System.Windows.Forms.DockStyle.Top
         Me.PanelBarraTitulo.Location = New System.Drawing.Point(0, 0)
         Me.PanelBarraTitulo.Name = "PanelBarraTitulo"
-        Me.PanelBarraTitulo.Size = New System.Drawing.Size(1150, 40)
+        Me.PanelBarraTitulo.Size = New System.Drawing.Size(1158, 40)
         Me.PanelBarraTitulo.TabIndex = 1
         '
         'btnCerrar
@@ -385,7 +393,7 @@ Partial Class FrmInicio
         Me.btnCerrar.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnCerrar.ForeColor = System.Drawing.Color.White
         Me.btnCerrar.Image = CType(resources.GetObject("btnCerrar.Image"), System.Drawing.Image)
-        Me.btnCerrar.Location = New System.Drawing.Point(1110, 0)
+        Me.btnCerrar.Location = New System.Drawing.Point(1118, 0)
         Me.btnCerrar.Name = "btnCerrar"
         Me.btnCerrar.Size = New System.Drawing.Size(40, 40)
         Me.btnCerrar.TabIndex = 4
@@ -399,7 +407,7 @@ Partial Class FrmInicio
         Me.btnRestaurar.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btnRestaurar.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnRestaurar.ForeColor = System.Drawing.Color.White
-        Me.btnRestaurar.Location = New System.Drawing.Point(1067, 0)
+        Me.btnRestaurar.Location = New System.Drawing.Point(1075, 0)
         Me.btnRestaurar.Name = "btnRestaurar"
         Me.btnRestaurar.Size = New System.Drawing.Size(40, 40)
         Me.btnRestaurar.TabIndex = 7
@@ -407,11 +415,65 @@ Partial Class FrmInicio
         Me.btnRestaurar.UseVisualStyleBackColor = True
         Me.btnRestaurar.Visible = False
         '
+        'Panel7
+        '
+        Me.Panel7.BackColor = System.Drawing.Color.White
+        Me.Panel7.Location = New System.Drawing.Point(0, 469)
+        Me.Panel7.Name = "Panel7"
+        Me.Panel7.Size = New System.Drawing.Size(5, 50)
+        Me.Panel7.TabIndex = 13
+        '
+        'Button6
+        '
+        Me.Button6.FlatAppearance.BorderSize = 0
+        Me.Button6.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(CType(CType(145, Byte), Integer), CType(CType(110, Byte), Integer), CType(CType(21, Byte), Integer))
+        Me.Button6.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(44, Byte), Integer), CType(CType(55, Byte), Integer), CType(CType(70, Byte), Integer))
+        Me.Button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Button6.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button6.ForeColor = System.Drawing.Color.White
+        Me.Button6.Image = CType(resources.GetObject("Button6.Image"), System.Drawing.Image)
+        Me.Button6.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
+        Me.Button6.Location = New System.Drawing.Point(3, 469)
+        Me.Button6.Name = "Button6"
+        Me.Button6.Size = New System.Drawing.Size(217, 50)
+        Me.Button6.TabIndex = 17
+        Me.Button6.Text = "      Compras"
+        Me.Button6.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
+        Me.Button6.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText
+        Me.Button6.UseVisualStyleBackColor = True
+        '
+        'Panel8
+        '
+        Me.Panel8.BackColor = System.Drawing.Color.White
+        Me.Panel8.Location = New System.Drawing.Point(0, 525)
+        Me.Panel8.Name = "Panel8"
+        Me.Panel8.Size = New System.Drawing.Size(5, 50)
+        Me.Panel8.TabIndex = 13
+        '
+        'Button7
+        '
+        Me.Button7.FlatAppearance.BorderSize = 0
+        Me.Button7.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(CType(CType(145, Byte), Integer), CType(CType(110, Byte), Integer), CType(CType(21, Byte), Integer))
+        Me.Button7.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(44, Byte), Integer), CType(CType(55, Byte), Integer), CType(CType(70, Byte), Integer))
+        Me.Button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Button7.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button7.ForeColor = System.Drawing.Color.White
+        Me.Button7.Image = CType(resources.GetObject("Button7.Image"), System.Drawing.Image)
+        Me.Button7.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
+        Me.Button7.Location = New System.Drawing.Point(3, 525)
+        Me.Button7.Name = "Button7"
+        Me.Button7.Size = New System.Drawing.Size(217, 50)
+        Me.Button7.TabIndex = 18
+        Me.Button7.Text = "       Roles"
+        Me.Button7.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
+        Me.Button7.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText
+        Me.Button7.UseVisualStyleBackColor = True
+        '
         'FrmInicio
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(1150, 600)
+        Me.ClientSize = New System.Drawing.Size(1158, 726)
         Me.Controls.Add(Me.PanelContenedor)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
         Me.Name = "FrmInicio"
@@ -452,4 +514,8 @@ Partial Class FrmInicio
     Friend WithEvents btnInfo As Button
     Friend WithEvents btnSettings As Button
     Friend WithEvents Panel1 As Panel
+    Friend WithEvents Button7 As Button
+    Friend WithEvents Panel8 As Panel
+    Friend WithEvents Button6 As Button
+    Friend WithEvents Panel7 As Panel
 End Class

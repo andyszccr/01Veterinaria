@@ -29,6 +29,9 @@ Partial Class frmRazas
         Me.gvRazas = New System.Windows.Forms.DataGridView()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
+        Me.GroupBox3 = New System.Windows.Forms.GroupBox()
+        Me.rbInactivo = New System.Windows.Forms.RadioButton()
+        Me.rbActivo = New System.Windows.Forms.RadioButton()
         Me.GroupBox2 = New System.Windows.Forms.GroupBox()
         Me.btnExport = New System.Windows.Forms.Button()
         Me.btnDelete = New System.Windows.Forms.Button()
@@ -37,13 +40,10 @@ Partial Class frmRazas
         Me.btnNew = New System.Windows.Forms.Button()
         Me.Label4 = New System.Windows.Forms.Label()
         Me.txtRaza = New System.Windows.Forms.TextBox()
-        Me.GroupBox3 = New System.Windows.Forms.GroupBox()
-        Me.rbActivo = New System.Windows.Forms.RadioButton()
-        Me.rbInactivo = New System.Windows.Forms.RadioButton()
         CType(Me.gvRazas, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.GroupBox1.SuspendLayout()
-        Me.GroupBox2.SuspendLayout()
         Me.GroupBox3.SuspendLayout()
+        Me.GroupBox2.SuspendLayout()
         Me.SuspendLayout()
         '
         'btnCerrar
@@ -74,7 +74,7 @@ Partial Class frmRazas
         '
         Me.txtCodigo.Enabled = False
         Me.txtCodigo.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtCodigo.Location = New System.Drawing.Point(21, 65)
+        Me.txtCodigo.Location = New System.Drawing.Point(21, 131)
         Me.txtCodigo.Name = "txtCodigo"
         Me.txtCodigo.Size = New System.Drawing.Size(350, 22)
         Me.txtCodigo.TabIndex = 16
@@ -82,9 +82,9 @@ Partial Class frmRazas
         'gvRazas
         '
         Me.gvRazas.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.gvRazas.Location = New System.Drawing.Point(15, 391)
+        Me.gvRazas.Location = New System.Drawing.Point(15, 471)
         Me.gvRazas.Name = "gvRazas"
-        Me.gvRazas.Size = New System.Drawing.Size(905, 137)
+        Me.gvRazas.Size = New System.Drawing.Size(905, 172)
         Me.gvRazas.TabIndex = 17
         '
         'Label2
@@ -93,7 +93,7 @@ Partial Class frmRazas
         Me.Label2.BackColor = System.Drawing.Color.White
         Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label2.ForeColor = System.Drawing.Color.DimGray
-        Me.Label2.Location = New System.Drawing.Point(18, 33)
+        Me.Label2.Location = New System.Drawing.Point(18, 99)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(109, 17)
         Me.Label2.TabIndex = 18
@@ -110,10 +110,45 @@ Partial Class frmRazas
         Me.GroupBox1.Controls.Add(Me.txtCodigo)
         Me.GroupBox1.Location = New System.Drawing.Point(15, 42)
         Me.GroupBox1.Name = "GroupBox1"
-        Me.GroupBox1.Size = New System.Drawing.Size(905, 332)
+        Me.GroupBox1.Size = New System.Drawing.Size(905, 398)
         Me.GroupBox1.TabIndex = 19
         Me.GroupBox1.TabStop = False
         Me.GroupBox1.Text = "Datos de Raza"
+        '
+        'GroupBox3
+        '
+        Me.GroupBox3.Controls.Add(Me.rbInactivo)
+        Me.GroupBox3.Controls.Add(Me.rbActivo)
+        Me.GroupBox3.Location = New System.Drawing.Point(469, 109)
+        Me.GroupBox3.Name = "GroupBox3"
+        Me.GroupBox3.Size = New System.Drawing.Size(332, 114)
+        Me.GroupBox3.TabIndex = 22
+        Me.GroupBox3.TabStop = False
+        Me.GroupBox3.Text = "Estado"
+        '
+        'rbInactivo
+        '
+        Me.rbInactivo.AutoSize = True
+        Me.rbInactivo.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!)
+        Me.rbInactivo.Location = New System.Drawing.Point(38, 76)
+        Me.rbInactivo.Name = "rbInactivo"
+        Me.rbInactivo.Size = New System.Drawing.Size(74, 21)
+        Me.rbInactivo.TabIndex = 1
+        Me.rbInactivo.TabStop = True
+        Me.rbInactivo.Text = "Inactivo"
+        Me.rbInactivo.UseVisualStyleBackColor = True
+        '
+        'rbActivo
+        '
+        Me.rbActivo.AutoSize = True
+        Me.rbActivo.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!)
+        Me.rbActivo.Location = New System.Drawing.Point(38, 31)
+        Me.rbActivo.Name = "rbActivo"
+        Me.rbActivo.Size = New System.Drawing.Size(64, 21)
+        Me.rbActivo.TabIndex = 0
+        Me.rbActivo.TabStop = True
+        Me.rbActivo.Text = "Activo"
+        Me.rbActivo.UseVisualStyleBackColor = True
         '
         'GroupBox2
         '
@@ -122,7 +157,7 @@ Partial Class frmRazas
         Me.GroupBox2.Controls.Add(Me.Button1)
         Me.GroupBox2.Controls.Add(Me.BtnAdd)
         Me.GroupBox2.Controls.Add(Me.btnNew)
-        Me.GroupBox2.Location = New System.Drawing.Point(21, 209)
+        Me.GroupBox2.Location = New System.Drawing.Point(21, 272)
         Me.GroupBox2.Name = "GroupBox2"
         Me.GroupBox2.Size = New System.Drawing.Size(846, 91)
         Me.GroupBox2.TabIndex = 20
@@ -189,7 +224,7 @@ Partial Class frmRazas
         Me.Label4.BackColor = System.Drawing.Color.White
         Me.Label4.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label4.ForeColor = System.Drawing.Color.DimGray
-        Me.Label4.Location = New System.Drawing.Point(18, 103)
+        Me.Label4.Location = New System.Drawing.Point(18, 169)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(41, 17)
         Me.Label4.TabIndex = 21
@@ -198,51 +233,16 @@ Partial Class frmRazas
         'txtRaza
         '
         Me.txtRaza.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!)
-        Me.txtRaza.Location = New System.Drawing.Point(21, 135)
+        Me.txtRaza.Location = New System.Drawing.Point(21, 201)
         Me.txtRaza.Name = "txtRaza"
         Me.txtRaza.Size = New System.Drawing.Size(350, 22)
         Me.txtRaza.TabIndex = 20
-        '
-        'GroupBox3
-        '
-        Me.GroupBox3.Controls.Add(Me.rbInactivo)
-        Me.GroupBox3.Controls.Add(Me.rbActivo)
-        Me.GroupBox3.Location = New System.Drawing.Point(469, 43)
-        Me.GroupBox3.Name = "GroupBox3"
-        Me.GroupBox3.Size = New System.Drawing.Size(332, 114)
-        Me.GroupBox3.TabIndex = 22
-        Me.GroupBox3.TabStop = False
-        Me.GroupBox3.Text = "Estado"
-        '
-        'rbActivo
-        '
-        Me.rbActivo.AutoSize = True
-        Me.rbActivo.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!)
-        Me.rbActivo.Location = New System.Drawing.Point(38, 31)
-        Me.rbActivo.Name = "rbActivo"
-        Me.rbActivo.Size = New System.Drawing.Size(64, 21)
-        Me.rbActivo.TabIndex = 0
-        Me.rbActivo.TabStop = True
-        Me.rbActivo.Text = "Activo"
-        Me.rbActivo.UseVisualStyleBackColor = True
-        '
-        'rbInactivo
-        '
-        Me.rbInactivo.AutoSize = True
-        Me.rbInactivo.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!)
-        Me.rbInactivo.Location = New System.Drawing.Point(38, 76)
-        Me.rbInactivo.Name = "rbInactivo"
-        Me.rbInactivo.Size = New System.Drawing.Size(74, 21)
-        Me.rbInactivo.TabIndex = 1
-        Me.rbInactivo.TabStop = True
-        Me.rbInactivo.Text = "Inactivo"
-        Me.rbInactivo.UseVisualStyleBackColor = True
         '
         'frmRazas
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(1103, 560)
+        Me.ClientSize = New System.Drawing.Size(1103, 729)
         Me.Controls.Add(Me.GroupBox1)
         Me.Controls.Add(Me.gvRazas)
         Me.Controls.Add(Me.Label1)
@@ -253,9 +253,9 @@ Partial Class frmRazas
         CType(Me.gvRazas, System.ComponentModel.ISupportInitialize).EndInit()
         Me.GroupBox1.ResumeLayout(False)
         Me.GroupBox1.PerformLayout()
-        Me.GroupBox2.ResumeLayout(False)
         Me.GroupBox3.ResumeLayout(False)
         Me.GroupBox3.PerformLayout()
+        Me.GroupBox2.ResumeLayout(False)
         Me.ResumeLayout(False)
         Me.PerformLayout()
 

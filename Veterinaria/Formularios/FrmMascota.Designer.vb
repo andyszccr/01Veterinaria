@@ -77,7 +77,7 @@ Partial Class FrmMascota
         Me.GroupBox1.Controls.Add(Me.txtCodigoMascota)
         Me.GroupBox1.Location = New System.Drawing.Point(12, 48)
         Me.GroupBox1.Name = "GroupBox1"
-        Me.GroupBox1.Size = New System.Drawing.Size(905, 347)
+        Me.GroupBox1.Size = New System.Drawing.Size(905, 442)
         Me.GroupBox1.TabIndex = 20
         Me.GroupBox1.TabStop = False
         Me.GroupBox1.Text = "Datos de Macotas"
@@ -85,7 +85,7 @@ Partial Class FrmMascota
         'cbEncargado
         '
         Me.cbEncargado.FormattingEnabled = True
-        Me.cbEncargado.Location = New System.Drawing.Point(505, 45)
+        Me.cbEncargado.Location = New System.Drawing.Point(21, 249)
         Me.cbEncargado.Name = "cbEncargado"
         Me.cbEncargado.Size = New System.Drawing.Size(350, 21)
         Me.cbEncargado.TabIndex = 26
@@ -96,7 +96,7 @@ Partial Class FrmMascota
         Me.Label5.BackColor = System.Drawing.Color.White
         Me.Label5.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label5.ForeColor = System.Drawing.Color.DimGray
-        Me.Label5.Location = New System.Drawing.Point(502, 25)
+        Me.Label5.Location = New System.Drawing.Point(18, 229)
         Me.Label5.Name = "Label5"
         Me.Label5.Size = New System.Drawing.Size(77, 17)
         Me.Label5.TabIndex = 25
@@ -108,7 +108,7 @@ Partial Class FrmMascota
         Me.Label3.BackColor = System.Drawing.Color.White
         Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label3.ForeColor = System.Drawing.Color.DimGray
-        Me.Label3.Location = New System.Drawing.Point(18, 132)
+        Me.Label3.Location = New System.Drawing.Point(18, 158)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(41, 17)
         Me.Label3.TabIndex = 24
@@ -117,7 +117,7 @@ Partial Class FrmMascota
         'cbRaza
         '
         Me.cbRaza.FormattingEnabled = True
-        Me.cbRaza.Location = New System.Drawing.Point(21, 152)
+        Me.cbRaza.Location = New System.Drawing.Point(21, 178)
         Me.cbRaza.Name = "cbRaza"
         Me.cbRaza.Size = New System.Drawing.Size(350, 21)
         Me.cbRaza.TabIndex = 23
@@ -126,7 +126,7 @@ Partial Class FrmMascota
         '
         Me.GroupBox3.Controls.Add(Me.rbInactivo)
         Me.GroupBox3.Controls.Add(Me.rbActivo)
-        Me.GroupBox3.Location = New System.Drawing.Point(505, 87)
+        Me.GroupBox3.Location = New System.Drawing.Point(500, 51)
         Me.GroupBox3.Name = "GroupBox3"
         Me.GroupBox3.Size = New System.Drawing.Size(350, 114)
         Me.GroupBox3.TabIndex = 22
@@ -164,7 +164,7 @@ Partial Class FrmMascota
         Me.GroupBox2.Controls.Add(Me.btnModificar)
         Me.GroupBox2.Controls.Add(Me.BtnAdd)
         Me.GroupBox2.Controls.Add(Me.btnNew)
-        Me.GroupBox2.Location = New System.Drawing.Point(21, 234)
+        Me.GroupBox2.Location = New System.Drawing.Point(21, 318)
         Me.GroupBox2.Name = "GroupBox2"
         Me.GroupBox2.Size = New System.Drawing.Size(846, 91)
         Me.GroupBox2.TabIndex = 20
@@ -231,7 +231,7 @@ Partial Class FrmMascota
         Me.Label4.BackColor = System.Drawing.Color.White
         Me.Label4.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label4.ForeColor = System.Drawing.Color.DimGray
-        Me.Label4.Location = New System.Drawing.Point(18, 78)
+        Me.Label4.Location = New System.Drawing.Point(18, 104)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(115, 17)
         Me.Label4.TabIndex = 21
@@ -243,7 +243,7 @@ Partial Class FrmMascota
         Me.Label2.BackColor = System.Drawing.Color.White
         Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label2.ForeColor = System.Drawing.Color.DimGray
-        Me.Label2.Location = New System.Drawing.Point(18, 25)
+        Me.Label2.Location = New System.Drawing.Point(18, 51)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(122, 17)
         Me.Label2.TabIndex = 18
@@ -252,7 +252,7 @@ Partial Class FrmMascota
         'txtMascota
         '
         Me.txtMascota.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!)
-        Me.txtMascota.Location = New System.Drawing.Point(21, 98)
+        Me.txtMascota.Location = New System.Drawing.Point(21, 124)
         Me.txtMascota.Name = "txtMascota"
         Me.txtMascota.Size = New System.Drawing.Size(350, 22)
         Me.txtMascota.TabIndex = 20
@@ -261,7 +261,7 @@ Partial Class FrmMascota
         '
         Me.txtCodigoMascota.Enabled = False
         Me.txtCodigoMascota.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtCodigoMascota.Location = New System.Drawing.Point(21, 45)
+        Me.txtCodigoMascota.Location = New System.Drawing.Point(21, 71)
         Me.txtCodigoMascota.Name = "txtCodigoMascota"
         Me.txtCodigoMascota.Size = New System.Drawing.Size(350, 22)
         Me.txtCodigoMascota.TabIndex = 16
@@ -269,7 +269,7 @@ Partial Class FrmMascota
         'gvMascotas
         '
         Me.gvMascotas.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.gvMascotas.Location = New System.Drawing.Point(12, 401)
+        Me.gvMascotas.Location = New System.Drawing.Point(12, 521)
         Me.gvMascotas.Name = "gvMascotas"
         Me.gvMascotas.Size = New System.Drawing.Size(905, 137)
         Me.gvMascotas.TabIndex = 21
@@ -290,7 +290,7 @@ Partial Class FrmMascota
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(1103, 560)
+        Me.ClientSize = New System.Drawing.Size(1103, 729)
         Me.Controls.Add(Me.btnCerrar)
         Me.Controls.Add(Me.gvMascotas)
         Me.Controls.Add(Me.GroupBox1)

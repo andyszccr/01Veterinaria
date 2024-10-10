@@ -59,3 +59,5 @@ D:\Documentos\01 Desarrollos\01-Veterinaria\Negocios\obj\Debug\Negocios.vbproj.U
 D:\Documentos\01 Desarrollos\01-Veterinaria\Negocios\obj\Debug\Negocios.dll
 D:\Documentos\01 Desarrollos\01-Veterinaria\Negocios\obj\Debug\Negocios.xml
 D:\Documentos\01 Desarrollos\01-Veterinaria\Negocios\obj\Debug\Negocios.pdb
+D:\Documentos\01 Desarrollos\01-Veterinaria\Negocios\bin\Debug\x86\sqlite3.dll
+D:\Documentos\01 Desarrollos\01-Veterinaria\Negocios\bin\Debug\x64\sqlite3.dll
