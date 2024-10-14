@@ -167,6 +167,9 @@
     <EmbeddedResource Include="Formularios\FrmMascota.resx">
       <DependentUpon>FrmMascota.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\FrmRoles.resx">
+      <DependentUpon>FrmRoles.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmAcercaDE.resx">
       <DependentUpon>frmAcercaDE.vb</DependentUpon>
     </EmbeddedResource>

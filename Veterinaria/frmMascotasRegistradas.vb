@@ -29,7 +29,7 @@ Public Class frmMascotasRegistradas
         'esconde la pantalla
         Me.Hide()
         'vuelve al menu 
-        frmMenu.Show()
+        'frmMenu.Show()
 
     End Sub
 

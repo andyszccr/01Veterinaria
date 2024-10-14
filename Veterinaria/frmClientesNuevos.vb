@@ -86,7 +86,7 @@ Public Class frmClientesNuevos
         Me.Hide()
 
         'se muestra el menu principal
-        frmMenu.Show()
+        'frmMenu.Show()
     End Sub
     Private Sub frmClientesNuevos_Load(sender As Object, e As EventArgs) Handles MyBase.Load
 

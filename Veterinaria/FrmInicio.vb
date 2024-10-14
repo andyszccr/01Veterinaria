@@ -65,6 +65,16 @@ Public Class FrmInicio
     Private Sub btnMascotas_Click(sender As Object, e As EventArgs) Handles btnMascotas.Click
         AbrirFormEnPanel(Of FrmMascota)()
     End Sub
+
+    'Boton de Clientes
+    Private Sub btnClientes_Click(sender As Object, e As EventArgs) Handles btnClientes.Click
+
+    End Sub
+
+    'Boton de Roles
+    Private Sub btnRoles_Click(sender As Object, e As EventArgs) Handles btnRoles.Click
+        AbrirFormEnPanel(Of FrmRoles)()
+    End Sub
 #End Region
     '*****************************************************************************
 #Region "Metodos Generales"
@@ -95,13 +105,13 @@ Public Class FrmInicio
     Private Sub CerrarFormulario(ByVal sender As Object, ByVal e As FormClosedEventArgs)
         'CONDICION SI FORMS ESTA ABIERTO
         If (Application.OpenForms("Form1") Is Nothing) Then
-            Button1.BackColor = Color.FromArgb(4, 41, 68)
+            btnEmpleados.BackColor = Color.FromArgb(4, 41, 68)
         End If
         If (Application.OpenForms("Form2") Is Nothing) Then
-            Button2.BackColor = Color.FromArgb(4, 41, 68)
+            btnClientes.BackColor = Color.FromArgb(4, 41, 68)
         End If
         If (Application.OpenForms("Form3") Is Nothing) Then
-            Button3.BackColor = Color.FromArgb(4, 41, 68)
+            btnTratamientos.BackColor = Color.FromArgb(4, 41, 68)
         End If
     End Sub
 

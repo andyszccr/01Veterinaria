@@ -47,3 +47,17 @@ D:\Documentos\01 Desarrollos\01-Veterinaria\Datos\obj\Debug\Datos.vbproj.Up2Date
 D:\Documentos\01 Desarrollos\01-Veterinaria\Datos\obj\Debug\Datos.dll
 D:\Documentos\01 Desarrollos\01-Veterinaria\Datos\obj\Debug\Datos.xml
 D:\Documentos\01 Desarrollos\01-Veterinaria\Datos\obj\Debug\Datos.pdb
+D:\Documentos\01 Desarrollos\01Veterinaria\Datos\bin\Debug\Datos.dll
+D:\Documentos\01 Desarrollos\01Veterinaria\Datos\bin\Debug\Datos.pdb
+D:\Documentos\01 Desarrollos\01Veterinaria\Datos\bin\Debug\Datos.xml
+D:\Documentos\01 Desarrollos\01Veterinaria\Datos\bin\Debug\Entidades.dll
+D:\Documentos\01 Desarrollos\01Veterinaria\Datos\bin\Debug\Entidades.pdb
+D:\Documentos\01 Desarrollos\01Veterinaria\Datos\bin\Debug\Entidades.xml
+D:\Documentos\01 Desarrollos\01Veterinaria\Datos\obj\Debug\Datos.vbproj.AssemblyReference.cache
+D:\Documentos\01 Desarrollos\01Veterinaria\Datos\obj\Debug\Datos.Resources.resources
+D:\Documentos\01 Desarrollos\01Veterinaria\Datos\obj\Debug\Datos.vbproj.GenerateResource.cache
+D:\Documentos\01 Desarrollos\01Veterinaria\Datos\obj\Debug\Datos.vbproj.CoreCompileInputs.cache
+D:\Documentos\01 Desarrollos\01Veterinaria\Datos\obj\Debug\Datos.vbproj.Up2Date
+D:\Documentos\01 Desarrollos\01Veterinaria\Datos\obj\Debug\Datos.dll
+D:\Documentos\01 Desarrollos\01Veterinaria\Datos\obj\Debug\Datos.xml
+D:\Documentos\01 Desarrollos\01Veterinaria\Datos\obj\Debug\Datos.pdb

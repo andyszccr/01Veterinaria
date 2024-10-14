@@ -85,7 +85,7 @@ Public Class lblcelular
     Private Sub VolverAlMenuPrincipalToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles VolverAlMenuPrincipalToolStripMenuItem.Click
         Me.Hide()
 
-        frmMenu.Show()
+        'frmMenu.Show()
     End Sub
 
     Private Sub btnmodificar_Click(sender As Object, e As EventArgs) 

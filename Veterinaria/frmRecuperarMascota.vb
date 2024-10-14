@@ -79,7 +79,7 @@ Public Class frmRecuperarMascota
 
         Me.Hide()
 
-        frmMenu.Show()
+        'frmMenu.Show()
 
     End Sub
 End Class

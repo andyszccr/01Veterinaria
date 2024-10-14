@@ -10,7 +10,7 @@ Public Class frmClientesRegistrados
 
 
         'se muestra el menu principal
-        frmMenu.Show()
+        'frmMenu.Show()
     End Sub
 
     Private Sub DueñosToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles DueñosToolStripMenuItem.Click

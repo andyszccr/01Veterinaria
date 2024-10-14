@@ -5,6 +5,6 @@
         Me.Hide()
 
         'vuelve al menu principal
-        frmMenu.Show()
+        ''frmMenu.Show()
     End Sub
 End Class
