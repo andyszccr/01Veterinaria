@@ -24,6 +24,18 @@ tales como lo es el xml, y mas adelante como mejora integrar el servicio de base
 [![CSS](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)](https://es.wikipedia.org/wiki/CSS)
 [![JS](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](https://es.wikipedia.org/wiki/JavaScript)-->
 
+## Arquitectura del Proyecto 🙇🏻 
+
+La version 1.0 realizaba los catalogos y eran almacenados en archivos XML 
+![image](https://github.com/user-attachments/assets/aa07a1f6-069f-4361-97c9-2cd4929edbf0)
+
+La version 2.0 realizaba los catalogos tales como Roles, Usuarios, mascotas, razas, tratamientos, inventarios, medicinas, compras con el objetivo 
+de poder almacenar esta información en una base de datos y que fuera posible el proceso de poder guardarlo en un xml.
+
+A la vez, en caso de que tuviera incosistencias como por ejemplo, no hay internet, puedan usar la bd de SQLite, y una vez que hayan recuperado la 
+conexion, estos puedan sincronizarlo a base de datos de SQL.
+
+* [Url de Figma](https://www.figma.com/board/byimnhU2c5Kn3AOD0vnud1/Untitled?node-id=0-1&t=TVnPlqXSb4vJ48pT-1)
 ## Vista previa del proyecto Version 1.0
 
 Estas Son las imagenes del proyecto version 1.0 sobre el tema del proyecto. 
@@ -73,6 +85,8 @@ Aqui en este apartado se presenta la paleta de Colores que se van a utilizar en 
 ->Modulo de Razas
 ![image](https://github.com/user-attachments/assets/98f14061-ac18-463c-8fcc-c270d0157edf)
 
+->Modulo de Roles
+![image](https://github.com/user-attachments/assets/868fcea6-e7bc-4c6b-955c-6b4e0b2d9ed2)
 
 
 ## Autor ✒️
