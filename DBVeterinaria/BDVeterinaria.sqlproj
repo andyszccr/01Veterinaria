@@ -72,5 +72,7 @@
     <Build Include="dbo\Stored Procedures\SPCatalogoPets.sql" />
     <Build Include="dbo\Stored Procedures\SPCatalogoRazas.sql" />
     <Build Include="dbo\Stored Procedures\SPViewRaces.sql" />
+    <Build Include="dbo\Stored Procedures\SPViewRoles.sql" />
+    <Build Include="dbo\Stored Procedures\SPCatalogoRoles.sql" />
   </ItemGroup>
 </Project>

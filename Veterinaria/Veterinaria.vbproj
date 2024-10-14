@@ -80,6 +80,12 @@
     <Compile Include="Formularios\FrmMascota.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Formularios\FrmRoles.Designer.vb">
+      <DependentUpon>FrmRoles.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\FrmRoles.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="frmAcercaDE.Designer.vb">
       <DependentUpon>frmAcercaDE.vb</DependentUpon>
     </Compile>
