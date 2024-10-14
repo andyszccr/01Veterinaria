@@ -88,6 +88,7 @@
     </Compile>
     <Compile Include="PetsN.vb" />
     <Compile Include="RaceN.vb" />
+    <Compile Include="RolesN.vb" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="My Project\Resources.resx">

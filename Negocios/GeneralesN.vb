@@ -11,10 +11,12 @@ Public Class GeneralesN
         Select Case accion
             Case "1"
                 generales._FechaCreate = Date.Now
+                generales._FechaUpate = Nothing
+                generales._FechaDelete = Nothing
             Case "2"
                 generales._FechaUpate = Date.Now
             Case Else
-                generales._FechaCreate = Date.Now
+                generales._FechaDelete = Date.Now
         End Select
     End Sub
 #End Region

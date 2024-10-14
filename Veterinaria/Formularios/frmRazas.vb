@@ -1,4 +1,4 @@
-﻿Imports System.Windows.Forms.VisualStyles.VisualStyleElement.Button
+﻿
 Imports Entidades
 Imports Negocios
 Public Class frmRazas

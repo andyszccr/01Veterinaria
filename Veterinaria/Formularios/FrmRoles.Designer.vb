@@ -29,15 +29,15 @@ Partial Class FrmRoles
         Me.rbInactivo = New System.Windows.Forms.RadioButton()
         Me.rbActivo = New System.Windows.Forms.RadioButton()
         Me.GroupBox2 = New System.Windows.Forms.GroupBox()
-        Me.Label4 = New System.Windows.Forms.Label()
-        Me.Label2 = New System.Windows.Forms.Label()
-        Me.txtMascota = New System.Windows.Forms.TextBox()
-        Me.txtCodigoMascota = New System.Windows.Forms.TextBox()
         Me.btnExport = New System.Windows.Forms.Button()
         Me.btnDelete = New System.Windows.Forms.Button()
         Me.btnModificar = New System.Windows.Forms.Button()
         Me.BtnAdd = New System.Windows.Forms.Button()
         Me.btnNew = New System.Windows.Forms.Button()
+        Me.Label4 = New System.Windows.Forms.Label()
+        Me.Label2 = New System.Windows.Forms.Label()
+        Me.txtRol = New System.Windows.Forms.TextBox()
+        Me.txtCodigo = New System.Windows.Forms.TextBox()
         Me.gvRoles = New System.Windows.Forms.DataGridView()
         Me.btnCerrar = New System.Windows.Forms.Label()
         Me.GroupBox1.SuspendLayout()
@@ -65,8 +65,8 @@ Partial Class FrmRoles
         Me.GroupBox1.Controls.Add(Me.GroupBox2)
         Me.GroupBox1.Controls.Add(Me.Label4)
         Me.GroupBox1.Controls.Add(Me.Label2)
-        Me.GroupBox1.Controls.Add(Me.txtMascota)
-        Me.GroupBox1.Controls.Add(Me.txtCodigoMascota)
+        Me.GroupBox1.Controls.Add(Me.txtRol)
+        Me.GroupBox1.Controls.Add(Me.txtCodigo)
         Me.GroupBox1.Location = New System.Drawing.Point(12, 37)
         Me.GroupBox1.Name = "GroupBox1"
         Me.GroupBox1.Size = New System.Drawing.Size(905, 401)
@@ -121,47 +121,6 @@ Partial Class FrmRoles
         Me.GroupBox2.Size = New System.Drawing.Size(846, 97)
         Me.GroupBox2.TabIndex = 20
         Me.GroupBox2.TabStop = False
-        '
-        'Label4
-        '
-        Me.Label4.AutoSize = True
-        Me.Label4.BackColor = System.Drawing.Color.White
-        Me.Label4.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label4.ForeColor = System.Drawing.Color.DimGray
-        Me.Label4.Location = New System.Drawing.Point(18, 118)
-        Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(29, 17)
-        Me.Label4.TabIndex = 21
-        Me.Label4.Text = "Rol"
-        '
-        'Label2
-        '
-        Me.Label2.AutoSize = True
-        Me.Label2.BackColor = System.Drawing.Color.White
-        Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.ForeColor = System.Drawing.Color.DimGray
-        Me.Label2.Location = New System.Drawing.Point(18, 51)
-        Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(97, 17)
-        Me.Label2.TabIndex = 18
-        Me.Label2.Text = "Codigo de Rol"
-        '
-        'txtMascota
-        '
-        Me.txtMascota.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!)
-        Me.txtMascota.Location = New System.Drawing.Point(21, 138)
-        Me.txtMascota.Name = "txtMascota"
-        Me.txtMascota.Size = New System.Drawing.Size(350, 22)
-        Me.txtMascota.TabIndex = 20
-        '
-        'txtCodigoMascota
-        '
-        Me.txtCodigoMascota.Enabled = False
-        Me.txtCodigoMascota.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtCodigoMascota.Location = New System.Drawing.Point(21, 71)
-        Me.txtCodigoMascota.Name = "txtCodigoMascota"
-        Me.txtCodigoMascota.Size = New System.Drawing.Size(350, 22)
-        Me.txtCodigoMascota.TabIndex = 16
         '
         'btnExport
         '
@@ -218,9 +177,57 @@ Partial Class FrmRoles
         Me.btnNew.Text = "Nuevo"
         Me.btnNew.UseVisualStyleBackColor = True
         '
+        'Label4
+        '
+        Me.Label4.AutoSize = True
+        Me.Label4.BackColor = System.Drawing.Color.White
+        Me.Label4.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label4.ForeColor = System.Drawing.Color.DimGray
+        Me.Label4.Location = New System.Drawing.Point(18, 118)
+        Me.Label4.Name = "Label4"
+        Me.Label4.Size = New System.Drawing.Size(29, 17)
+        Me.Label4.TabIndex = 21
+        Me.Label4.Text = "Rol"
+        '
+        'Label2
+        '
+        Me.Label2.AutoSize = True
+        Me.Label2.BackColor = System.Drawing.Color.White
+        Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label2.ForeColor = System.Drawing.Color.DimGray
+        Me.Label2.Location = New System.Drawing.Point(18, 51)
+        Me.Label2.Name = "Label2"
+        Me.Label2.Size = New System.Drawing.Size(97, 17)
+        Me.Label2.TabIndex = 18
+        Me.Label2.Text = "Codigo de Rol"
+        '
+        'txtRol
+        '
+        Me.txtRol.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!)
+        Me.txtRol.Location = New System.Drawing.Point(21, 138)
+        Me.txtRol.Name = "txtRol"
+        Me.txtRol.Size = New System.Drawing.Size(350, 22)
+        Me.txtRol.TabIndex = 20
+        '
+        'txtCodigo
+        '
+        Me.txtCodigo.AccessibleRole = System.Windows.Forms.AccessibleRole.ButtonDropDownGrid
+        Me.txtCodigo.Enabled = False
+        Me.txtCodigo.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtCodigo.Location = New System.Drawing.Point(21, 71)
+        Me.txtCodigo.Name = "txtCodigo"
+        Me.txtCodigo.Size = New System.Drawing.Size(350, 22)
+        Me.txtCodigo.TabIndex = 16
+        '
         'gvRoles
         '
-        Me.gvRoles.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
+        Me.gvRoles.AllowUserToAddRows = False
+        Me.gvRoles.AllowUserToDeleteRows = False
+        Me.gvRoles.AllowUserToResizeColumns = False
+        Me.gvRoles.AllowUserToResizeRows = False
+        Me.gvRoles.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill
+        Me.gvRoles.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal
+        Me.gvRoles.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.DisableResizing
         Me.gvRoles.Location = New System.Drawing.Point(12, 454)
         Me.gvRoles.Name = "gvRoles"
         Me.gvRoles.Size = New System.Drawing.Size(905, 179)
@@ -274,8 +281,8 @@ Partial Class FrmRoles
     Friend WithEvents btnNew As Button
     Friend WithEvents Label4 As Label
     Friend WithEvents Label2 As Label
-    Friend WithEvents txtMascota As TextBox
-    Friend WithEvents txtCodigoMascota As TextBox
+    Friend WithEvents txtRol As TextBox
+    Friend WithEvents txtCodigo As TextBox
     Friend WithEvents gvRoles As DataGridView
     Friend WithEvents btnCerrar As Label
 End Class

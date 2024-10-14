@@ -1,7 +1,7 @@
 ﻿Imports System.Data.SqlClient
 
 Public Class DConexionDB
-    Private Shared CadenaConexion As String = "Data Source=bXNzcWwtMTA5NTA5LTAuY2xvdWRjbHVzdGVycy5uZXQsMTAyOTE=;Initial Catalog=PedidosFusionFloral;User ID=QW5kcmV5c3pjcg==;Password=QWRtaW4yMDIz;"
+    Private Shared CadenaConexion As String = "Data Source=ANDREY;Initial Catalog=VeterinariaDB;Integrated Security=True;"
     Public Conexion As SqlConnection = New SqlConnection(CadenaConexion)
     '*********************************************************************************
     Public Function AbrirConexion() As SqlConnection

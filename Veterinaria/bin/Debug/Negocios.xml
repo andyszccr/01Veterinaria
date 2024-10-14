@@ -44,5 +44,16 @@ Negocios
  <param name="vlaccion"></param>
  <returns></returns>
 </member>
+<member name="M:Negocios.RolesN.mantenimientoRazas(Entidades.RolesE,System.String)">
+ <summary>
+ Metodo para mantenimiento de Roles
+ 1. Opcion 1 crear
+ 2. Opcion 2 modificar
+ 3. Opcion 3 Eliminar
+ </summary>
+ <param name="obje"></param>
+ <param name="vlaccion"></param>
+ <returns></returns>
+</member>
 </members>
 </doc>

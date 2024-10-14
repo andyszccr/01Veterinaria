@@ -61,7 +61,7 @@
 
     Public Property _msjAccion As String
         Get
-            Return msjAccion
+            'Return msjAccion
         End Get
         Set(value As String)
             msjAccion = value
@@ -70,7 +70,7 @@
 
     Public Property _FechaCreate As DateTime
         Get
-            Return FechaCreate
+            'Return FechaCreate
         End Get
         Set(value As Date)
             FechaCreate = value
@@ -79,7 +79,7 @@
 
     Public Property _FechaUpate As DateTime
         Get
-            Return FechaUpate
+            'Return FechaUpate
         End Get
         Set(value As Date)
             FechaUpate = value
@@ -88,7 +88,7 @@
 
     Public Property _FechaDelete As DateTime
         Get
-            Return FechaDelete
+            'Return FechaDelete
         End Get
         Set(value As Date)
             FechaDelete = value
