@@ -85,11 +85,10 @@ Public Class FrmRoles
         vlRole._RoleCode = txtCodigo.Text
         vlRole._RoleName = txtRol.Text
         vlGenerales._accion = accion
-        GeneralesN.FechasGenerales(accion)
-        vlRole._RoleCreate = vlGenerales._FechaCreate
-        vlRole._RoleUpdate = vlGenerales._FechaUpate
-        vlRole._RoleDelete = vlGenerales._FechaDelete
-        vlGenerales._msj = RoleN.mantenimientoRazas(vlRole, vlGenerales._accion)
+        vlRole._RoleCreate = GeneralesN.FechaCreate(accion)
+        vlRole._RoleUpdate = GeneralesN.FechaUpdate(accion)
+        vlRole._RoleDelete = GeneralesN.FechaDelete(accion)
+        vlGenerales._msj = RoleN.mantenimientoRoles(vlRole, vlGenerales._accion)
         MessageBox.Show(vlGenerales._msj, "Mensaje", MessageBoxButtons.OK, MessageBoxIcon.Information)
     End Sub
 

@@ -13,20 +13,27 @@ Public Class RolesN
     Private cmdRoles As SqlCommand = New SqlCommand()
     Private Conexion As ConexionSQL = New ConexionSQL()
     Private LeerFilas As SqlDataReader
-    Dim dt As DataTable = New DataTable()
-
 
     Public Function VistaRoles() As DataTable
-        cmdRoles.Connection = Conexion.AbrirConexion()
-        cmdRoles.CommandText = "SPViewRaces"
-        cmdRoles.CommandType = CommandType.StoredProcedure
-        Dim da As SqlDataAdapter = New SqlDataAdapter(cmdRoles)
-        da.Fill(dt)
-        Conexion.CerrarConexion()
+        Dim dt As DataTable = New DataTable()
+        Dim conection As Object
+
+        'validacion de datos
+        Try
+            cmdRoles.Connection = Conexion.AbrirConexion()
+            cmdRoles = New SqlCommand("SPViewRoles", Conexion.Conexion)
+            cmdRoles.CommandType = CommandType.StoredProcedure
+            Dim da As SqlDataAdapter = New SqlDataAdapter(cmdRoles)
+            da.Fill(dt)
+            Conexion.CerrarConexion()
+        Catch ex As Exception
+            dt = Nothing
+            Console.WriteLine("Error: " + ex.Message)
+        End Try
+
 
         Return dt
     End Function
-
 
 
     ''' <summary>
@@ -39,11 +46,11 @@ Public Class RolesN
     ''' <param name="vlaccion"></param>
     ''' <returns></returns>
 #Region "Mantenimiento de Razas"
-    Public Function mantenimientoRazas(ByVal obje As RolesE, ByVal vlaccion As String) As String
+    Public Function mantenimientoRoles(ByVal obje As RolesE, ByVal vlaccion As String) As String
         Try
             Dim accion As String = ""
             cmdRoles.Connection = Conexion.AbrirConexion()
-            cmdRoles = New SqlCommand("SPCatalogoRazas", Conexion.Conexion)
+            cmdRoles = New SqlCommand("SPCatalogoRoles", Conexion.Conexion)
             cmdRoles.CommandType = CommandType.StoredProcedure
             cmdRoles.Parameters.Add(New SqlParameter("@RoleCode", obje._RoleCode))
             cmdRoles.Parameters.Add(New SqlParameter("@RoleName", obje._RoleName))

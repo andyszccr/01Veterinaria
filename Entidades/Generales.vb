@@ -6,9 +6,9 @@
     Private nombre As String
     Private email As String
     Private version As String
-    Private FechaCreate As DateTime? = Nothing
-    Private FechaUpate As DateTime? = Nothing
-    Private FechaDelete As DateTime? = Nothing
+    Private FechaCreate As DateTime
+    Private FechaUpate As DateTime
+    Private FechaDelete As DateTime
 #End Region
 
 #Region "Propiedades"
@@ -61,7 +61,7 @@
 
     Public Property _msjAccion As String
         Get
-            'Return msjAccion
+            Return msjAccion
         End Get
         Set(value As String)
             msjAccion = value
@@ -70,7 +70,7 @@
 
     Public Property _FechaCreate As DateTime
         Get
-            'Return FechaCreate
+            Return FechaCreate
         End Get
         Set(value As Date)
             FechaCreate = value
@@ -79,7 +79,7 @@
 
     Public Property _FechaUpate As DateTime
         Get
-            'Return FechaUpate
+            Return FechaUpate
         End Get
         Set(value As Date)
             FechaUpate = value
@@ -88,7 +88,7 @@
 
     Public Property _FechaDelete As DateTime
         Get
-            'Return FechaDelete
+            Return FechaDelete
         End Get
         Set(value As Date)
             FechaDelete = value

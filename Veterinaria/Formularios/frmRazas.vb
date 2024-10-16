@@ -52,10 +52,9 @@ Public Class frmRazas
         vlRaza._RaceCode = txtCodigo.Text
         vlRaza._RaceName = txtRaza.Text
         vlGenerales._accion = accion
-        GeneralesN.FechasGenerales(accion)
-        vlRaza._RaceCreate = vlGenerales._FechaCreate
-        vlRaza._RaceUpdate = vlGenerales._FechaUpate
-        vlRaza._RaceDelete = vlGenerales._FechaDelete
+        vlRaza._RaceCreate = GeneralesN.FechaCreate(accion)
+        vlRaza._RaceUpdate = GeneralesN.FechaUpdate(accion)
+        vlRaza._RaceDelete = GeneralesN.FechaDelete(accion)
         vlGenerales._msj = RazaN.mantenimientoRazas(vlRaza, vlGenerales._accion)
         MessageBox.Show(vlGenerales._msj, "Mensaje", MessageBoxButtons.OK, MessageBoxIcon.Information)
     End Sub
