@@ -74,5 +74,6 @@
     <Build Include="dbo\Stored Procedures\SPViewRaces.sql" />
     <Build Include="dbo\Stored Procedures\SPViewRoles.sql" />
     <Build Include="dbo\Stored Procedures\SPCatalogoRoles.sql" />
+    <Build Include="dbo\Stored Procedures\SPCatalogoUsers.sql" />
   </ItemGroup>
 </Project>
