@@ -116,28 +116,10 @@
     <Compile Include="FrmInicio.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmMascotasRegistradas.Designer.vb">
-      <DependentUpon>frmMascotasRegistradas.vb</DependentUpon>
-    </Compile>
-    <Compile Include="frmMascotasRegistradas.vb">
-      <SubType>Form</SubType>
-    </Compile>
     <Compile Include="Formularios\frmRazas.Designer.vb">
       <DependentUpon>frmRazas.vb</DependentUpon>
     </Compile>
     <Compile Include="Formularios\frmRazas.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="frmRecuperar.Designer.vb">
-      <DependentUpon>frmRecuperar.vb</DependentUpon>
-    </Compile>
-    <Compile Include="frmRecuperar.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="frmRecuperarMascota.Designer.vb">
-      <DependentUpon>frmRecuperarMascota.vb</DependentUpon>
-    </Compile>
-    <Compile Include="frmRecuperarMascota.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Mensajes\FrmMensaje.Designer.vb">
@@ -185,17 +167,8 @@
     <EmbeddedResource Include="FrmInicio.resx">
       <DependentUpon>FrmInicio.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmMascotasRegistradas.resx">
-      <DependentUpon>frmMascotasRegistradas.vb</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Formularios\frmRazas.resx">
       <DependentUpon>frmRazas.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="frmRecuperar.resx">
-      <DependentUpon>frmRecuperar.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="frmRecuperarMascota.resx">
-      <DependentUpon>frmRecuperarMascota.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Mensajes\FrmMensaje.resx">
       <DependentUpon>FrmMensaje.vb</DependentUpon>

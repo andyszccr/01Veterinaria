@@ -140,10 +140,7 @@ D:\Documentos\01 Desarrollos\01Veterinaria\Veterinaria\obj\Debug\Veterinaria.frm
 D:\Documentos\01 Desarrollos\01Veterinaria\Veterinaria\obj\Debug\Veterinaria.frmClientesRegistrados.resources
 D:\Documentos\01 Desarrollos\01Veterinaria\Veterinaria\obj\Debug\Veterinaria.frmInfo.resources
 D:\Documentos\01 Desarrollos\01Veterinaria\Veterinaria\obj\Debug\Veterinaria.FrmInicio.resources
-D:\Documentos\01 Desarrollos\01Veterinaria\Veterinaria\obj\Debug\Veterinaria.frmMascotasRegistradas.resources
 D:\Documentos\01 Desarrollos\01Veterinaria\Veterinaria\obj\Debug\Veterinaria.frmRazas.resources
-D:\Documentos\01 Desarrollos\01Veterinaria\Veterinaria\obj\Debug\Veterinaria.lblcelular.resources
-D:\Documentos\01 Desarrollos\01Veterinaria\Veterinaria\obj\Debug\Veterinaria.frmRecuperarMascota.resources
 D:\Documentos\01 Desarrollos\01Veterinaria\Veterinaria\obj\Debug\Veterinaria.FrmMensaje.resources
 D:\Documentos\01 Desarrollos\01Veterinaria\Veterinaria\obj\Debug\Veterinaria.Resources.resources
 D:\Documentos\01 Desarrollos\01Veterinaria\Veterinaria\obj\Debug\Veterinaria.vbproj.GenerateResource.cache
