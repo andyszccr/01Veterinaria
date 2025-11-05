@@ -80,3 +80,20 @@ D:\Documentos\01 Desarrollos\01Veterinaria\Negocios\obj\Debug\Negocios.xml
 D:\Documentos\01 Desarrollos\01Veterinaria\Negocios\obj\Debug\Negocios.pdb
 D:\Documentos\01 Desarrollos\01Veterinaria\Negocios\bin\Debug\x86\sqlite3.dll
 D:\Documentos\01 Desarrollos\01Veterinaria\Negocios\bin\Debug\x64\sqlite3.dll
+C:\Users\Usuario\Source\Repos\01Veterinaria\Negocios\bin\Debug\Negocios.dll
+C:\Users\Usuario\Source\Repos\01Veterinaria\Negocios\bin\Debug\Negocios.pdb
+C:\Users\Usuario\Source\Repos\01Veterinaria\Negocios\bin\Debug\Negocios.xml
+C:\Users\Usuario\Source\Repos\01Veterinaria\Negocios\bin\Debug\Datos.dll
+C:\Users\Usuario\Source\Repos\01Veterinaria\Negocios\bin\Debug\Entidades.dll
+C:\Users\Usuario\Source\Repos\01Veterinaria\Negocios\bin\Debug\Datos.pdb
+C:\Users\Usuario\Source\Repos\01Veterinaria\Negocios\bin\Debug\Datos.xml
+C:\Users\Usuario\Source\Repos\01Veterinaria\Negocios\bin\Debug\Entidades.pdb
+C:\Users\Usuario\Source\Repos\01Veterinaria\Negocios\bin\Debug\Entidades.xml
+C:\Users\Usuario\Source\Repos\01Veterinaria\Negocios\obj\Debug\Negocios.vbproj.AssemblyReference.cache
+C:\Users\Usuario\Source\Repos\01Veterinaria\Negocios\obj\Debug\Negocios.Resources.resources
+C:\Users\Usuario\Source\Repos\01Veterinaria\Negocios\obj\Debug\Negocios.vbproj.GenerateResource.cache
+C:\Users\Usuario\Source\Repos\01Veterinaria\Negocios\obj\Debug\Negocios.vbproj.CoreCompileInputs.cache
+C:\Users\Usuario\Source\Repos\01Veterinaria\Negocios\obj\Debug\Negocios.vbproj.Up2Date
+C:\Users\Usuario\Source\Repos\01Veterinaria\Negocios\obj\Debug\Negocios.dll
+C:\Users\Usuario\Source\Repos\01Veterinaria\Negocios\obj\Debug\Negocios.xml
+C:\Users\Usuario\Source\Repos\01Veterinaria\Negocios\obj\Debug\Negocios.pdb

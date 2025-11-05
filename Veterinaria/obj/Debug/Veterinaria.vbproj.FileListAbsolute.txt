@@ -164,3 +164,34 @@ D:\Documentos\01 Desarrollos\01Veterinaria\Veterinaria\bin\Debug\Negocios.xml
 D:\Documentos\01 Desarrollos\01Veterinaria\Veterinaria\bin\Debug\Datos.pdb
 D:\Documentos\01 Desarrollos\01Veterinaria\Veterinaria\bin\Debug\Datos.xml
 D:\Documentos\01 Desarrollos\01Veterinaria\Veterinaria\obj\Debug\Veterina.C10E9B93.Up2Date
+C:\Users\Usuario\Source\Repos\01Veterinaria\Veterinaria\bin\Debug\Veterinaria.exe.config
+C:\Users\Usuario\Source\Repos\01Veterinaria\Veterinaria\bin\Debug\Veterinaria.exe
+C:\Users\Usuario\Source\Repos\01Veterinaria\Veterinaria\bin\Debug\Veterinaria.pdb
+C:\Users\Usuario\Source\Repos\01Veterinaria\Veterinaria\bin\Debug\Veterinaria.xml
+C:\Users\Usuario\Source\Repos\01Veterinaria\Veterinaria\bin\Debug\Entidades.dll
+C:\Users\Usuario\Source\Repos\01Veterinaria\Veterinaria\bin\Debug\Negocios.dll
+C:\Users\Usuario\Source\Repos\01Veterinaria\Veterinaria\bin\Debug\Datos.dll
+C:\Users\Usuario\Source\Repos\01Veterinaria\Veterinaria\bin\Debug\Entidades.pdb
+C:\Users\Usuario\Source\Repos\01Veterinaria\Veterinaria\bin\Debug\Entidades.xml
+C:\Users\Usuario\Source\Repos\01Veterinaria\Veterinaria\bin\Debug\Negocios.pdb
+C:\Users\Usuario\Source\Repos\01Veterinaria\Veterinaria\bin\Debug\Negocios.xml
+C:\Users\Usuario\Source\Repos\01Veterinaria\Veterinaria\bin\Debug\Datos.pdb
+C:\Users\Usuario\Source\Repos\01Veterinaria\Veterinaria\bin\Debug\Datos.xml
+C:\Users\Usuario\Source\Repos\01Veterinaria\Veterinaria\obj\Debug\Veterinaria.vbproj.AssemblyReference.cache
+C:\Users\Usuario\Source\Repos\01Veterinaria\Veterinaria\obj\Debug\Veterinaria.exe.config
+C:\Users\Usuario\Source\Repos\01Veterinaria\Veterinaria\obj\Debug\Veterinaria.FrmMascota.resources
+C:\Users\Usuario\Source\Repos\01Veterinaria\Veterinaria\obj\Debug\Veterinaria.FrmRoles.resources
+C:\Users\Usuario\Source\Repos\01Veterinaria\Veterinaria\obj\Debug\Veterinaria.frmAcercaDE.resources
+C:\Users\Usuario\Source\Repos\01Veterinaria\Veterinaria\obj\Debug\Veterinaria.frmClientesNuevos.resources
+C:\Users\Usuario\Source\Repos\01Veterinaria\Veterinaria\obj\Debug\Veterinaria.frmClientesRegistrados.resources
+C:\Users\Usuario\Source\Repos\01Veterinaria\Veterinaria\obj\Debug\Veterinaria.frmInfo.resources
+C:\Users\Usuario\Source\Repos\01Veterinaria\Veterinaria\obj\Debug\Veterinaria.FrmInicio.resources
+C:\Users\Usuario\Source\Repos\01Veterinaria\Veterinaria\obj\Debug\Veterinaria.frmRazas.resources
+C:\Users\Usuario\Source\Repos\01Veterinaria\Veterinaria\obj\Debug\Veterinaria.FrmMensaje.resources
+C:\Users\Usuario\Source\Repos\01Veterinaria\Veterinaria\obj\Debug\Veterinaria.Resources.resources
+C:\Users\Usuario\Source\Repos\01Veterinaria\Veterinaria\obj\Debug\Veterinaria.vbproj.GenerateResource.cache
+C:\Users\Usuario\Source\Repos\01Veterinaria\Veterinaria\obj\Debug\Veterinaria.vbproj.CoreCompileInputs.cache
+C:\Users\Usuario\Source\Repos\01Veterinaria\Veterinaria\obj\Debug\Veterina.C10E9B93.Up2Date
+C:\Users\Usuario\Source\Repos\01Veterinaria\Veterinaria\obj\Debug\Veterinaria.exe
+C:\Users\Usuario\Source\Repos\01Veterinaria\Veterinaria\obj\Debug\Veterinaria.xml
+C:\Users\Usuario\Source\Repos\01Veterinaria\Veterinaria\obj\Debug\Veterinaria.pdb

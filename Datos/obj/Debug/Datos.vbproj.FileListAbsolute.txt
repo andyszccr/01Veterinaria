@@ -63,3 +63,17 @@ D:\Documentos\01 Desarrollos\01Veterinaria\Datos\obj\Debug\Datos.xml
 D:\Documentos\01 Desarrollos\01Veterinaria\Datos\obj\Debug\Datos.pdb
 D:\Documentos\01 Desarrollos\01Veterinaria\Datos\bin\Debug\x86\sqlite3.dll
 D:\Documentos\01 Desarrollos\01Veterinaria\Datos\bin\Debug\x64\sqlite3.dll
+C:\Users\Usuario\Source\Repos\01Veterinaria\Datos\bin\Debug\Datos.dll
+C:\Users\Usuario\Source\Repos\01Veterinaria\Datos\bin\Debug\Datos.pdb
+C:\Users\Usuario\Source\Repos\01Veterinaria\Datos\bin\Debug\Datos.xml
+C:\Users\Usuario\Source\Repos\01Veterinaria\Datos\bin\Debug\Entidades.dll
+C:\Users\Usuario\Source\Repos\01Veterinaria\Datos\bin\Debug\Entidades.pdb
+C:\Users\Usuario\Source\Repos\01Veterinaria\Datos\bin\Debug\Entidades.xml
+C:\Users\Usuario\Source\Repos\01Veterinaria\Datos\obj\Debug\Datos.vbproj.AssemblyReference.cache
+C:\Users\Usuario\Source\Repos\01Veterinaria\Datos\obj\Debug\Datos.Resources.resources
+C:\Users\Usuario\Source\Repos\01Veterinaria\Datos\obj\Debug\Datos.vbproj.GenerateResource.cache
+C:\Users\Usuario\Source\Repos\01Veterinaria\Datos\obj\Debug\Datos.vbproj.CoreCompileInputs.cache
+C:\Users\Usuario\Source\Repos\01Veterinaria\Datos\obj\Debug\Datos.vbproj.Up2Date
+C:\Users\Usuario\Source\Repos\01Veterinaria\Datos\obj\Debug\Datos.dll
+C:\Users\Usuario\Source\Repos\01Veterinaria\Datos\obj\Debug\Datos.xml
+C:\Users\Usuario\Source\Repos\01Veterinaria\Datos\obj\Debug\Datos.pdb
