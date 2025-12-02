@@ -12,12 +12,20 @@
 @UserDelete		datetime		,
 @UserStatus		bit				,
 @ProvinceID		int				,
-@accion			varchar(50) output
+@accion			varchar(50) output,
+@campo			varchar(100) NULL 
 )
 as
 IF (@accion = '0')
 BEGIN 
-	SELECT * FROM Users; 
+		IF(@campo is not null)
+		BEGIN 
+			SELECT @campo FROM Users;
+		END;	
+	ELSE 
+		BEGIN
+			SELECT * FROM Users;
+		END;
 END;
 GO
 

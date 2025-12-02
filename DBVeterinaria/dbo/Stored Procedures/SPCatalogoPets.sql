@@ -9,10 +9,18 @@
 @PetStatus		bit			,
 @RaceID			int			,
 @UserID			int			,
-@accion			varchar(50) output
+@accion			varchar(50) output,
+@campo			varchar(100) NULL 
 )
 as
 IF (@accion='0')
 BEGIN
-	SELECT * FROM Pets;
+	IF(@campo is not null)
+		BEGIN 
+			SELECT @campo FROM Pets;
+		END;	
+	ELSE 
+		BEGIN
+			SELECT * FROM Pets;
+		END; 
 END;
