@@ -1,23 +1,32 @@
-﻿CREATE PROCEDURE [dbo].[SPCatalogoRoles]
+﻿
+
+/* ============================================================
+   SP: CATALOGO ROLES
+   ============================================================ */
+CREATE PROCEDURE [dbo].[SPCatalogoRoles]
 (
-@RoleCode	varchar(5)	,
-@RoleName	varchar(100),
-@RoleCreate	datetime	,
-@RoleUpdate	datetime	,
-@RoleDelete	datetime	,
-@RoleStatus	bit			,
-@accion			varchar(50) output,
-@campo			varchar(100) NULL 
+    @RoleCode     varchar(5),
+    @RoleName     varchar(100),
+    @RoleCreate   datetime,
+    @RoleUpdate   datetime,
+    @RoleDelete   datetime,
+    @RoleStatus   bit,
+    @accion       varchar(50) OUTPUT,
+    @campo        varchar(100) NULL 
 )
-as
-if (@accion ='0')
+AS
 BEGIN
-	IF(@campo is not null)
-		BEGIN 
-			SELECT @campo FROM Roles;
-		END;	
-	ELSE 
-		BEGIN
-			SELECT * FROM Roles;
-		END;
+    IF (@accion = '0')
+    BEGIN
+        IF (@campo IS NOT NULL)
+        BEGIN
+            DECLARE @SQL NVARCHAR(MAX);
+            SET @SQL = N'SELECT ' + QUOTENAME(@campo) + ' FROM Roles;';
+            EXEC(@SQL);
+        END	
+        ELSE 
+        BEGIN
+            SELECT * FROM Roles;
+        END
+    END
 END;
