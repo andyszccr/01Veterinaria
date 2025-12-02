@@ -69,7 +69,6 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BaseDatos\ConexionSQL.vb" />
-    <Compile Include="BaseDatos\ConexionSQLite.vb" />
     <Compile Include="DConexionDB.vb" />
     <Compile Include="XMLdato.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
