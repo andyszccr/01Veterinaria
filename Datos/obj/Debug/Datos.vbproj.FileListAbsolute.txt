@@ -77,3 +77,5 @@ C:\Users\Usuario\Source\Repos\01Veterinaria\Datos\obj\Debug\Datos.vbproj.Up2Date
 C:\Users\Usuario\Source\Repos\01Veterinaria\Datos\obj\Debug\Datos.dll
 C:\Users\Usuario\Source\Repos\01Veterinaria\Datos\obj\Debug\Datos.xml
 C:\Users\Usuario\Source\Repos\01Veterinaria\Datos\obj\Debug\Datos.pdb
+C:\Users\Usuario\source\repos\01Veterinaria\Datos\bin\Debug\x86\sqlite3.dll
+C:\Users\Usuario\source\repos\01Veterinaria\Datos\bin\Debug\x64\sqlite3.dll

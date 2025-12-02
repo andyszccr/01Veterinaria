@@ -195,3 +195,5 @@ C:\Users\Usuario\Source\Repos\01Veterinaria\Veterinaria\obj\Debug\Veterina.C10E9
 C:\Users\Usuario\Source\Repos\01Veterinaria\Veterinaria\obj\Debug\Veterinaria.exe
 C:\Users\Usuario\Source\Repos\01Veterinaria\Veterinaria\obj\Debug\Veterinaria.xml
 C:\Users\Usuario\Source\Repos\01Veterinaria\Veterinaria\obj\Debug\Veterinaria.pdb
+C:\Users\Usuario\source\repos\01Veterinaria\Veterinaria\bin\Debug\x86\sqlite3.dll
+C:\Users\Usuario\source\repos\01Veterinaria\Veterinaria\bin\Debug\x64\sqlite3.dll

@@ -1,5 +1,5 @@
 ﻿Public Class Generales
-#Region "Variables"
+#Region "Atributos"
     Private accion As String
     Private msj As String
     Private msjAccion As String

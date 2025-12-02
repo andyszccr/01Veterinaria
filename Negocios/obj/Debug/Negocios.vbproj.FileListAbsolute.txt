@@ -97,3 +97,5 @@ C:\Users\Usuario\Source\Repos\01Veterinaria\Negocios\obj\Debug\Negocios.vbproj.U
 C:\Users\Usuario\Source\Repos\01Veterinaria\Negocios\obj\Debug\Negocios.dll
 C:\Users\Usuario\Source\Repos\01Veterinaria\Negocios\obj\Debug\Negocios.xml
 C:\Users\Usuario\Source\Repos\01Veterinaria\Negocios\obj\Debug\Negocios.pdb
+C:\Users\Usuario\source\repos\01Veterinaria\Negocios\bin\Debug\x86\sqlite3.dll
+C:\Users\Usuario\source\repos\01Veterinaria\Negocios\bin\Debug\x64\sqlite3.dll
