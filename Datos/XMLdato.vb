@@ -36,6 +36,7 @@ Public Class XMLdato
     Dim nodoDueño As XmlNode
 
 
+    'definicion de propiedades
 #Region "PROPERTIES "
 
     'property de ruta 
@@ -61,6 +62,16 @@ Public Class XMLdato
         End Set
     End Property
     '--------------------------------------------------
+    'property de split
+    Public Property _split As String
+        Get
+            'se le devuelve un valor 
+            Return split
+        End Get
+        Set(value As String)
+            split = value
+        End Set
+    End Property
     Public Property nruta As String
         Get
             'se le devuelve un valor 
@@ -157,7 +168,12 @@ Public Class XMLdato
 #End Region
 
     'escritura de archivos 
+#Region "ESCRITURA "
 
+
+
+
+#End Region
 
 
     'lectura de archivos desde el txt
