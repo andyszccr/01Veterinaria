@@ -1,7 +1,8 @@
 ﻿
 
+
 /* ============================================================
-   SP: CATALOGO RAZAS
+   SP: CATALOGO RAZAS (con múltiples campos)
    ============================================================ */
 CREATE PROCEDURE [dbo].[SPCatalogoRazas]
 (
@@ -12,7 +13,7 @@ CREATE PROCEDURE [dbo].[SPCatalogoRazas]
     @RaceDelete   datetime,
     @RaceStatus   bit,
     @accion       varchar(50) OUTPUT,
-    @campo        varchar(100) NULL 
+    @campo        varchar(100) NULL
 )
 AS
 BEGIN
@@ -20,10 +21,16 @@ BEGIN
     BEGIN
         IF (@campo IS NOT NULL)
         BEGIN
+            DECLARE @ListaSegura NVARCHAR(MAX);
             DECLARE @SQL NVARCHAR(MAX);
-            SET @SQL = N'SELECT ' + QUOTENAME(@campo) + ' FROM Race;';
-            EXEC (@SQL);
-        END	
+
+            SELECT @ListaSegura =
+                STRING_AGG(QUOTENAME(value), ', ')
+            FROM STRING_SPLIT(@campo, ',');
+
+            SET @SQL = N'SELECT ' + @ListaSegura + ' FROM Race;';
+            EXEC(@SQL);
+        END
         ELSE 
         BEGIN
             SELECT * FROM Race;

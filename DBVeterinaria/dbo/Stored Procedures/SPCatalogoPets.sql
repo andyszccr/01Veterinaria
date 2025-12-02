@@ -1,7 +1,8 @@
 ﻿
 
+
 /* ============================================================
-   SP: CATALOGO PETS
+   SP: CATALOGO PETS (con múltiples campos)
    ============================================================ */
 CREATE PROCEDURE SPCatalogoPets
 (
@@ -15,7 +16,7 @@ CREATE PROCEDURE SPCatalogoPets
     @RaceID      int,
     @UserID      int,
     @accion      varchar(50) OUTPUT,
-    @campo       varchar(100) NULL 
+    @campo       varchar(100) NULL
 )
 AS
 BEGIN
@@ -23,10 +24,16 @@ BEGIN
     BEGIN
         IF (@campo IS NOT NULL)
         BEGIN
+            DECLARE @ListaSegura NVARCHAR(MAX);
             DECLARE @SQL NVARCHAR(MAX);
-            SET @SQL = N'SELECT ' + QUOTENAME(@campo) + ' FROM Pets;';
-            EXEC (@SQL);
-        END	
+
+            SELECT @ListaSegura =
+                STRING_AGG(QUOTENAME(value), ', ')
+            FROM STRING_SPLIT(@campo, ',');
+
+            SET @SQL = N'SELECT ' + @ListaSegura + ' FROM Pets;';
+            EXEC(@SQL);
+        END
         ELSE 
         BEGIN
             SELECT * FROM Pets;

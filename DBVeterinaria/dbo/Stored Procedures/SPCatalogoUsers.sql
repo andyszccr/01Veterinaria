@@ -1,5 +1,5 @@
 ﻿/* ============================================================
-   SP: CATALOGO USERS
+   SP: CATALOGO USERS (con múltiples campos)
    ============================================================ */
 CREATE PROCEDURE SPCatalogoUsers
 (
@@ -16,17 +16,24 @@ CREATE PROCEDURE SPCatalogoUsers
     @UserStatus     bit,
     @ProvinceID     int,
     @accion         varchar(50) OUTPUT,
-    @campo          varchar(100) NULL 
+    @campo          varchar(100) NULL
 )
 AS
 BEGIN
     IF (@accion = '0')
-    BEGIN 
+    BEGIN
         IF (@campo IS NOT NULL)
         BEGIN
+            DECLARE @ListaSegura NVARCHAR(MAX);
             DECLARE @SQL NVARCHAR(MAX);
-            SET @SQL = N'SELECT ' + QUOTENAME(@campo) + ' FROM Users;';
-            EXEC (@SQL);
+
+            -- Convierte "col1, col2" → [col1], [col2]
+            SELECT @ListaSegura =
+                STRING_AGG(QUOTENAME(value), ', ')
+            FROM STRING_SPLIT(@campo, ',');
+
+            SET @SQL = N'SELECT ' + @ListaSegura + ' FROM Users;';
+            EXEC(@SQL);
         END
         ELSE 
         BEGIN
