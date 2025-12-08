@@ -215,5 +215,6 @@
     <Build Include="dbo\Views\vw_Actividad.sql" />
     <Build Include="dbo\Stored Procedures\SPGenerarVIEW_ALL.sql" />
     <Build Include="dbo\Stored Procedures\SPGenerarVIEW.sql" />
+    <Build Include="dbo\Stored Procedures\SP_ABM_Actividad.sql" />
   </ItemGroup>
 </Project>
