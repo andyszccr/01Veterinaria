@@ -24,6 +24,8 @@
 );
 
 
+
+
 GO
 CREATE NONCLUSTERED INDEX [IX_Animal_Clasificacion]
     ON [dbo].[Animal]([ClasificacionID] ASC);
@@ -91,3 +93,51 @@ BEGIN
         JOIN deleted d ON i.AnimalID = d.AnimalID;
     END
 END;
+GO
+
+            CREATE TRIGGER dbo.[trg_Animal_BusinessRules]
+            ON dbo.[Animal]
+            AFTER INSERT, UPDATE
+            AS
+            BEGIN
+                SET NOCOUNT ON;
+
+                /* =======================
+                   NORMALIZACIÓN COMÚN
+                   ======================= */
+
+                -- Normalizar columnas tipo Code
+                IF EXISTS (
+                    SELECT 1
+                    FROM sys.columns
+                    WHERE object_id = OBJECT_ID('dbo.Animal')
+                      AND name LIKE '%Code%'
+                )
+                BEGIN
+                    DECLARE @col SYSNAME;
+
+                    SELECT TOP 1 @col = name
+                    FROM sys.columns
+                    WHERE object_id = OBJECT_ID('dbo.Animal')
+                      AND name LIKE '%Code%';
+
+                    EXEC('
+                        UPDATE t
+                        SET ' + @col + ' = UPPER(LTRIM(RTRIM(i.' + @col + ')))
+                        FROM dbo.Animal t
+                        JOIN inserted i ON t.AnimalID = i.AnimalID
+                    ');
+                END
+
+                /* =======================
+                   MARCA DE MODIFICACIÓN
+                   ======================= */
+                IF COL_LENGTH('Animal','ModifiedAt') IS NOT NULL
+                BEGIN
+                    UPDATE t
+                    SET ModifiedAt = SYSUTCDATETIME()
+                    FROM dbo.Animal t
+                    JOIN inserted i ON t.AnimalID = i.AnimalID;
+                END
+
+            END;

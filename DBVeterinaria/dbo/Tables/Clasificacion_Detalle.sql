@@ -4,10 +4,13 @@
     [NivelTaxonomico]        VARCHAR (30)  NOT NULL,
     [Subnivel]               VARCHAR (50)  NULL,
     [NombreNivel]            VARCHAR (200) NOT NULL,
+    [ModifiedAt]             DATETIME2 (7) CONSTRAINT [DF_Clasificacion_Detalle_ModifiedAt] DEFAULT (sysutcdatetime()) NOT NULL,
     PRIMARY KEY CLUSTERED ([ClasificacionDetalleID] ASC),
     CONSTRAINT [CK_ClasificacionDetalle_Nivel] CHECK ([NivelTaxonomico]='GENERO' OR [NivelTaxonomico]='FAMILIA' OR [NivelTaxonomico]='ORDEN' OR [NivelTaxonomico]='CLASE' OR [NivelTaxonomico]='FILO' OR [NivelTaxonomico]='REINO'),
     CONSTRAINT [FK_ClasificacionDetalle_Clasificacion] FOREIGN KEY ([ClasificacionID]) REFERENCES [dbo].[Clasificacion] ([ClasificacionID])
 );
+
+
 
 
 GO
@@ -68,4 +71,20 @@ BEGIN
     FROM inserted i
     FULL JOIN deleted d 
         ON i.ClasificacionDetalleID = d.ClasificacionDetalleID;
+END;
+GO
+
+CREATE TRIGGER [dbo].[trg_Clasificacion_Detalle_BusinessRules]
+ON [dbo].[Clasificacion_Detalle]
+AFTER INSERT, UPDATE
+AS
+BEGIN
+    SET NOCOUNT ON;
+
+    UPDATE t
+    SET ModifiedAt = SYSUTCDATETIME()
+    FROM [dbo].[Clasificacion_Detalle] t
+    JOIN inserted i
+        ON t.[ClasificacionDetalleID] = i.[ClasificacionDetalleID];
+
 END;

@@ -8,13 +8,33 @@
     [Observaciones]     NVARCHAR (1000) NULL,
     [AppliedBy]         INT             NULL,
     [CreatedAt]         DATETIME2 (7)   DEFAULT (sysutcdatetime()) NOT NULL,
+    [ModifiedAt]        DATETIME2 (7)   CONSTRAINT [DF_Animal_Treatment_ModifiedAt] DEFAULT (sysutcdatetime()) NOT NULL,
     PRIMARY KEY CLUSTERED ([AnimalTreatmentID] ASC),
     CONSTRAINT [FK_AnimalTreatment_Animal] FOREIGN KEY ([AnimalID]) REFERENCES [dbo].[Animal] ([AnimalID]),
     CONSTRAINT [FK_AnimalTreatment_Treatment] FOREIGN KEY ([TreatmentID]) REFERENCES [dbo].[Treatment] ([TreatmentID])
 );
 
 
+
+
 GO
 CREATE NONCLUSTERED INDEX [IX_AnimalTreatment_AnimalID]
     ON [dbo].[Animal_Treatment]([AnimalID] ASC);
 
+
+GO
+
+CREATE TRIGGER [dbo].[trg_Animal_Treatment_BusinessRules]
+ON [dbo].[Animal_Treatment]
+AFTER INSERT, UPDATE
+AS
+BEGIN
+    SET NOCOUNT ON;
+
+    UPDATE t
+    SET ModifiedAt = SYSUTCDATETIME()
+    FROM [dbo].[Animal_Treatment] t
+    JOIN inserted i
+        ON t.[AnimalTreatmentID] = i.[AnimalTreatmentID];
+
+END;

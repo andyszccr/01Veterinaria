@@ -16,6 +16,8 @@
 );
 
 
+
+
 GO
 CREATE NONCLUSTERED INDEX [IX_Treatment_Code]
     ON [dbo].[Treatment]([TreatmentCode] ASC);
@@ -73,3 +75,51 @@ BEGIN
         JOIN deleted d ON i.TreatmentID = d.TreatmentID;
     END
 END;
+GO
+
+            CREATE TRIGGER dbo.[trg_Treatment_BusinessRules]
+            ON dbo.[Treatment]
+            AFTER INSERT, UPDATE
+            AS
+            BEGIN
+                SET NOCOUNT ON;
+
+                /* =======================
+                   NORMALIZACIÓN COMÚN
+                   ======================= */
+
+                -- Normalizar columnas tipo Code
+                IF EXISTS (
+                    SELECT 1
+                    FROM sys.columns
+                    WHERE object_id = OBJECT_ID('dbo.Treatment')
+                      AND name LIKE '%Code%'
+                )
+                BEGIN
+                    DECLARE @col SYSNAME;
+
+                    SELECT TOP 1 @col = name
+                    FROM sys.columns
+                    WHERE object_id = OBJECT_ID('dbo.Treatment')
+                      AND name LIKE '%Code%';
+
+                    EXEC('
+                        UPDATE t
+                        SET ' + @col + ' = UPPER(LTRIM(RTRIM(i.' + @col + ')))
+                        FROM dbo.Treatment t
+                        JOIN inserted i ON t.TreatmentID = i.TreatmentID
+                    ');
+                END
+
+                /* =======================
+                   MARCA DE MODIFICACIÓN
+                   ======================= */
+                IF COL_LENGTH('Treatment','ModifiedAt') IS NOT NULL
+                BEGIN
+                    UPDATE t
+                    SET ModifiedAt = SYSUTCDATETIME()
+                    FROM dbo.Treatment t
+                    JOIN inserted i ON t.TreatmentID = i.TreatmentID;
+                END
+
+            END;

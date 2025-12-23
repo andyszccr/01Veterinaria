@@ -22,6 +22,8 @@
 );
 
 
+
+
 GO
 
 /* =========================
@@ -85,4 +87,20 @@ BEGIN
         FROM inserted i
         JOIN deleted d ON i.UserID = d.UserID;
     END
+END;
+GO
+
+CREATE TRIGGER [dbo].[trg_Usuarios_BusinessRules]
+ON [dbo].[Usuarios]
+AFTER INSERT, UPDATE
+AS
+BEGIN
+    SET NOCOUNT ON;
+
+    UPDATE t
+    SET ModifiedAt = SYSUTCDATETIME()
+    FROM [dbo].[Usuarios] t
+    JOIN inserted i
+        ON t.[UserID] = i.[UserID];
+
 END;

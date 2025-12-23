@@ -216,5 +216,8 @@
     <Build Include="dbo\Stored Procedures\SPGenerarVIEW_ALL.sql" />
     <Build Include="dbo\Stored Procedures\SPGenerarVIEW.sql" />
     <Build Include="dbo\Stored Procedures\SP_ABM_Actividad.sql" />
+    <Build Include="dbo\Tables\Mascota.sql" />
+    <Build Include="dbo\Views\vw_MascotasCompleto.sql" />
+    <Build Include="dbo\Stored Procedures\SP_Factory_CreateBusinessRuleTriggers.sql" />
   </ItemGroup>
 </Project>
