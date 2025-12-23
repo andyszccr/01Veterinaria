@@ -1,130 +1,183 @@
-﻿# ===============================
-# BASE DE DATOS - MODELO COMPLETO
-# ===============================
-
-# -------------------------------
-# Usuarios
-# -------------------------------
+﻿===============================
+BASE DE DATOS - MODELO COMPLETO
+===============================
+-------------------------------
 Usuarios
- ├─ UserID
- ├─ UserCode
- ├─ UserName
- ├─ UserLastName
- ├─ RoleID ──> Roles
- ├─ UserEmail
- ├─ UserPhone
- ├─ UserAddress
- ├─ UserStatus
- └─ ProvinceID ──> Provinces
+-------------------------------
+
+Usuarios
+├─ UserID
+├─ UserCode
+├─ UserName
+├─ UserLastName
+├─ UserEmail
+├─ UserPhone
+├─ UserAddress
+├─ UserStatus
+├─ RoleID ──> Roles
+└─ ProvinceID ──> Provinces
 
 Roles
- ├─ RoleID
- ├─ RoleCode
- ├─ RoleName
- └─ RoleStatus
+├─ RoleID
+├─ RoleCode
+├─ RoleName
+└─ RoleStatus
 
 Provinces
- ├─ ProvinceID
- ├─ ProvinceCode
- ├─ ProvinceName
- └─ ProvinceStatus
+├─ ProvinceID
+├─ ProvinceCode
+├─ ProvinceName
+└─ ProvinceStatus
 
-# -------------------------------
-# Animales
-# -------------------------------
+-------------------------------
+Clasificación Taxonómica
+-------------------------------
+
+Clasificacion
+├─ ClasificacionID
+├─ Nombre
+├─ TipoNivel -- Reino, Filo, Clase, Orden, Familia, Genero, Especie, Subespecie
+└─ ParentID ──> Clasificacion (nivel superior)
+
+Clasificacion_Detalle
+├─ ClasificacionDetalleID
+├─ ClasificacionID ──> Clasificacion
+├─ NivelTaxonomico -- REINO / FILO / CLASE / ORDEN / FAMILIA / GENERO
+├─ Subnivel -- Subfilo, Superorden, Infraorden, etc.
+└─ NombreNivel
+
+-------------------------------
+Animales
+-------------------------------
+
 Animal
- ├─ AnimalID
- ├─ AnimalCode
- ├─ AnimalName
- ├─ AnimalAge
- ├─ AnimalStatus
- └─ ClasificacionID ──> Clasificacion (Subespecie)
-      ├─ Clasificacion (base)
-      │    ├─ TipoNivel (Reino, Filo, Clase, Orden, Familia, Genero, Especie, Subespecie)
-      │    └─ ParentID ──> Clasificacion (nivel superior)
-      │
-      ├─ Reino
-      │    └─ Reino_Detalle
-      │         ├─ Atributo1Reino
-      │         └─ Atributo2Reino
-      │
-      ├─ Filo
-      │    └─ Filo_Detalle
-      │         ├─ Atributo1Filo
-      │         └─ Atributo2Filo
-      │
-      ├─ Clase
-      │    └─ Clase_Detalle
-      │         ├─ Atributo1Clase
-      │         └─ Atributo2Clase
-      │
-      ├─ Orden
-      │    └─ Orden_Detalle
-      │         ├─ Atributo1Orden
-      │         └─ Atributo2Orden
-      │
-      ├─ Familia
-      │    └─ Familia_Detalle
-      │         ├─ Atributo1Familia
-      │         └─ Atributo2Familia
-      │
-      ├─ Genero
-      │    └─ Genero_Detalle
-      │         ├─ Atributo1Genero
-      │         └─ Atributo2Genero
-      │
-      ├─ Especie
-      │    └─ Especie_Detalle
-      │         ├─ AlturaPromedio
-      │         ├─ PesoPromedio
-      │         ├─ TipoPiel
-      │         └─ ColorComun
-      │
-      └─ Subespecie
-           └─ Subespecie_Detalle
-                ├─ Atributo1Subespecie
-                └─ Atributo2Subespecie
+├─ AnimalID
+├─ AnimalCode
+├─ AnimalName
+├─ FechaNacimiento
+├─ Edad
+├─ Peso
+├─ Sexo
+├─ Estado
+├─ AnimalStatus
+└─ ClasificacionID ──> Clasificacion (Subespecie)
 
- ├─ Tratamientos
- │    ├─ TreatmentID
- │    ├─ TreatmentCode
- │    ├─ TreatmentName
- │    ├─ TreatmentAge
- │    ├─ TreatmentStatus
- │    └─ TratamientoDetalle
- │         ├─ Vacunas
- │         │    └─ TipoVacuna
- │         ├─ Remedios
- │         │    └─ TipoRemedio
- │         └─ PlazosDeReposo
- │              └─ TipoReposo
+-------------------------------
+Comidas
+-------------------------------
 
- ├─ Comidas
- │    ├─ ComidaID
- │    ├─ TipoComida
- │    ├─ Cantidad
- │    └─ Frecuencia
+Comida
+├─ ComidaID
+├─ TipoComida
+├─ Cantidad
+├─ Unidad
+├─ Frecuencia
+├─ Calorias
+└─ CreatedAt
 
- ├─ HabitatRecomendado
- │    ├─ HabitatID
- │    ├─ TipoHabitat
- │    ├─ TemperaturaIdeal
- │    └─ HumedadIdeal
+Animal_Comida
+├─ AnimalID ──> Animal
+├─ ComidaID ──> Comida
+├─ CantidadAsignada
+├─ FrecuenciaAsignada
+└─ CreatedAt
 
- └─ Medicines
-      ├─ MedicineID
-      ├─ MedicineCode
-      ├─ MedicineName
-      └─ MedicineStatus
+-------------------------------
+Hábitats
+-------------------------------
 
-# -------------------------------
-# Auditoría centralizada
-# -------------------------------
+Habitat
+├─ HabitatID
+├─ HabitatName
+├─ Description
+├─ TemperaturaMin
+├─ TemperaturaMax
+├─ HumedadMin
+├─ HumedadMax
+└─ CreatedAt
+
+Clasificacion_Habitat
+├─ ClasificacionID ──> Clasificacion
+├─ HabitatID ──> Habitat
+└─ CreatedAt
+
+-------------------------------
+Tratamientos
+-------------------------------
+
+Treatment
+├─ TreatmentID
+├─ TreatmentCode
+├─ TreatmentName
+├─ TipoTratamiento -- Vacuna / Remedio / Reposo / Mixto
+├─ TreatmentAge
+├─ TreatmentStatus
+├─ CreatedAt
+└─ ModifiedAt
+
+Vacuna
+├─ VacunaID
+└─ TipoVacuna
+
+Remedio
+├─ RemedioID
+└─ TipoRemedio
+
+Reposo
+├─ ReposoID
+└─ TipoReposo
+
+Relaciones de tratamiento
+
+Tratamiento_Vacuna
+├─ TreatmentID ──> Treatment
+└─ VacunaID ──> Vacuna
+
+Tratamiento_Remedio
+├─ TreatmentID ──> Treatment
+└─ RemedioID ──> Remedio
+
+Tratamiento_Reposo
+├─ TreatmentID ──> Treatment
+└─ ReposoID ──> Reposo
+
+Animal_Treatment
+├─ AnimalTreatmentID
+├─ AnimalID ──> Animal
+├─ TreatmentID ──> Treatment
+├─ FechaInicio
+├─ FechaFin
+├─ Dosis
+├─ Observaciones
+├─ AppliedBy ──> Usuarios
+└─ CreatedAt
+
+-------------------------------
+Medicinas
+-------------------------------
+
+Medicine
+├─ MedicineID
+├─ MedicineCode
+├─ MedicineName
+└─ MedicineStatus
+
+Tratamiento_Medicine
+├─ TreatmentID ──> Treatment
+├─ MedicineID ──> Medicine
+├─ Dosis
+├─ Frecuencia
+└─ Duracion
+
+-------------------------------
+Auditoría centralizada
+-------------------------------
+
 Actividad
- ├─ ActividadID
- ├─ Entidad          -- Ej: 'Animal', 'User', 'Medicine', 'Tratamiento', 'Comida'
- ├─ EntidadID        -- El ID del registro afectado
- ├─ Accion           -- 'CREATE', 'UPDATE', 'DELETE'
- ├─ UsuarioID        -- Quien realizó la acción
- ├─ FechaHora        -- Momento de la acción
- └─ Detalle          -- Opcional: JSON con cambios realizados
+├─ ActividadID
+├─ Entidad -- Ej: Animal, User, Medicine, Treatment
+├─ EntidadID -- El ID afectado
+├─ Accion -- CREATE / UPDATE / DELETE
+├─ UsuarioID -- Quién realizó la acción
+├─ FechaHora
+└─ Detalle -- JSON con cambios
