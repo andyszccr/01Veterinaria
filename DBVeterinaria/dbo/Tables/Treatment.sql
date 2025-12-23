@@ -1,19 +1,21 @@
 ﻿CREATE TABLE [dbo].[Treatment] (
-    [TreatmentID]     INT           IDENTITY (1, 1) NOT NULL,
-    [TreatmentCode]   VARCHAR (50)  NOT NULL,
-    [TreatmentName]   VARCHAR (250) NOT NULL,
-    [TipoTratamiento] VARCHAR (50)  NULL,
-    [TreatmentAge]    INT           NULL,
-    [TreatmentStatus] BIT           DEFAULT ((1)) NOT NULL,
-    [CreatedAt]       DATETIME2 (7) DEFAULT (sysutcdatetime()) NOT NULL,
-    [CreatedBy]       INT           NULL,
-    [ModifiedAt]      DATETIME2 (7) NULL,
-    [ModifiedBy]      INT           NULL,
+    [TreatmentID]       INT           IDENTITY (1, 1) NOT NULL,
+    [TreatmentCode]     VARCHAR (50)  NOT NULL,
+    [TreatmentName]     VARCHAR (250) NOT NULL,
+    [TreatmentAge]      INT           NULL,
+    [TreatmentStatus]   BIT           DEFAULT ((1)) NOT NULL,
+    [CreatedAt]         DATETIME2 (7) DEFAULT (sysutcdatetime()) NOT NULL,
+    [CreatedBy]         INT           NULL,
+    [ModifiedAt]        DATETIME2 (7) NULL,
+    [ModifiedBy]        INT           NULL,
+    [TipoTratamientoID] INT           NOT NULL,
     PRIMARY KEY CLUSTERED ([TreatmentID] ASC),
     CONSTRAINT [CK_Treatment_Status] CHECK ([TreatmentStatus]=(1) OR [TreatmentStatus]=(0)),
-    CONSTRAINT [CK_Treatment_Tipo] CHECK ([TipoTratamiento]='Mixto' OR [TipoTratamiento]='Reposo' OR [TipoTratamiento]='Remedio' OR [TipoTratamiento]='Vacuna' OR [TipoTratamiento] IS NULL),
+    CONSTRAINT [FK_Treatment_TipoTratamiento] FOREIGN KEY ([TipoTratamientoID]) REFERENCES [dbo].[TipoTratamiento] ([TipoTratamientoID]),
     UNIQUE NONCLUSTERED ([TreatmentCode] ASC)
 );
+
+
 
 
 
@@ -123,3 +125,14 @@ GO
                 END
 
             END;
+GO
+CREATE TRIGGER trg_x
+ON dbo.Treatment
+AFTER INSERT
+AS
+BEGIN
+    SET NOCOUNT ON;
+
+    SELECT *
+    FROM inserted;
+END;

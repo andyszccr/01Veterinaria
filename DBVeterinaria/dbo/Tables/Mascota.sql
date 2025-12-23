@@ -15,3 +15,20 @@
     CONSTRAINT [UQ_Mascota_Animal] UNIQUE NONCLUSTERED ([AnimalID] ASC)
 );
 
+
+GO
+
+CREATE TRIGGER [dbo].[trg_Mascota_BusinessRules]
+ON [dbo].[Mascota]
+AFTER INSERT, UPDATE
+AS
+BEGIN
+    SET NOCOUNT ON;
+
+    UPDATE t
+    SET ModifiedAt = SYSUTCDATETIME()
+    FROM [dbo].[Mascota] t
+    JOIN inserted i
+        ON t.[MascotaID] = i.[MascotaID];
+
+END;

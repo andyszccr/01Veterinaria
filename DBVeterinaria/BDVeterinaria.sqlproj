@@ -219,5 +219,14 @@
     <Build Include="dbo\Tables\Mascota.sql" />
     <Build Include="dbo\Views\vw_MascotasCompleto.sql" />
     <Build Include="dbo\Stored Procedures\SP_Factory_CreateBusinessRuleTriggers.sql" />
+    <Build Include="dbo\Tables\TipoTratamiento.sql" />
+    <Build Include="dbo\Tables\Auditoria_TipoTratamiento.sql" />
+    <Build Include="dbo\Tables\Auditoria_Mascota.sql" />
+    <Build Include="dbo\Views\vw_TipoTratamiento.sql" />
+    <Build Include="dbo\Views\vw_Mascota.sql" />
+    <Build Include="dbo\Stored Procedures\SP_XML_TipoTratamiento.sql" />
+    <Build Include="dbo\Stored Procedures\SP_XML_Mascota.sql" />
+    <Build Include="dbo\Stored Procedures\SP_ABM_TipoTratamiento.sql" />
+    <Build Include="dbo\Stored Procedures\SP_ABM_Mascota.sql" />
   </ItemGroup>
 </Project>
