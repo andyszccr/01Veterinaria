@@ -1,0 +1,70 @@
+LISTA DE TABLAS PARA CODEBONE - PASO A PASO
+============================================
+
+Fuentes: Repositorio GitHub 01Veterinaria, base de datos BDVeterinaria y prototipo CodeBone (imagen). El proyecto pasa de nombre "Veterinaria" a "CodeBone".
+
+
+PASO 1 - Tablas sin dependencias (catálogos base)
+------------------------------------------------
+Crear primero las que no tienen claves foráneas.
+
+  1.1 Provinces   - Provincias/ubicación (para usuarios y direcciones).
+  1.2 Roles       - Roles de usuario (administrador, veterinario, etc.).
+  1.3 Race        - Razas de animales (para mascotas).
+  1.4 Medicine    - Medicinas / catálogo de medicamentos.
+
+
+PASO 2 - Tablas que solo dependen del Paso 1
+--------------------------------------------
+
+  2.1 Users       - Depende de: Provinces, Roles. Usuarios del sistema (dueños de mascotas, empleados, administradores).
+
+
+PASO 3 - Tablas que dependen de Users y catálogos
+-------------------------------------------------
+
+  3.1 Pets        - Depende de: Race, Users. Mascotas (pacientes animales); cada mascota tiene dueño (User) y raza (Race).
+
+
+PASO 4 - Tablas que dependen de Pets y Medicine
+-----------------------------------------------
+
+  4.1 Treatments  - Depende de: Pets, Medicine. Tratamientos aplicados a una mascota con un medicamento.
+
+
+PASO 5 - Tablas sugeridas por el prototipo CodeBone
+---------------------------------------------------
+El prototipo muestra "Consultas por Especie", "Análisis por Especie" y "Pacientes Recientes" (nombre, fecha, código de datos).
+
+  5.1 Species (Especies)     - Sin dependencias. Catálogo de especies (perro, gato, etc.). Race puede depender de Species si se desea.
+  5.2 Consultas (o Visits)   - Depende de: Pets (y opcionalmente Species). Cada visita o consulta; permite reportes "consultas por especie" y "pacientes recientes" por fecha.
+  5.3 Configuraciones        - (Opcional) Sin dependencias. Parámetros del sistema (nombre clínica, tema, etc.) si se implementa la sección Configuración.
+
+Nota: "Pacientes Recientes" se resuelve con Pets + Consultas: nombre del paciente (mascota o dueño), fecha de la última consulta, código de datos (código de mascota o de registro).
+
+
+PASO 6 - Tablas mencionadas en el proyecto (README) no presentes aún en BD
+---------------------------------------------------------------------------
+Para alinear con "inventarios" y "compras" cuando se implementen.
+
+  6.1 Inventories (Inventarios)  - Depende de: Medicine (y opcionalmente ubicación). Stock de medicinas/productos.
+  6.2 Purchases (Compras)       - Depende de: Medicine, Users (y opcionalmente proveedor). Compras de medicinas/productos.
+
+
+RESUMEN DEL ORDEN RECOMENDADO (STEP BY STEP)
+============================================
+
+  1. Provinces
+  2. Roles
+  3. Race
+  4. Medicine
+  5. Users
+  6. Pets
+  7. Treatments
+  8. Species (nueva, para prototipo)
+  9. Consultas (nueva, para prototipo)
+ 10. Configuraciones (opcional)
+ 11. Inventories (futuro)
+ 12. Purchases (futuro)
+
+Las tablas 1 a 7 ya existen en BDVeterinaria. Las 8 a 10 son las que pide el prototipo de CodeBone para el dashboard y análisis. Las 11 y 12 son para cuando incorpores inventario y compras.
