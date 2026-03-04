@@ -76,5 +76,7 @@
     <Build Include="dbo\Stored Procedures\SPCatalogoRazas.sql" />
     <Build Include="dbo\Stored Procedures\SPCatalogoPets.sql" />
     <Build Include="dbo\Stored Procedures\GenerarClaseCSharp.sql" />
+    <Build Include="dbo\Tables\Products.sql" />
+    <Build Include="dbo\Tables\Categories.sql" />
   </ItemGroup>
 </Project>
