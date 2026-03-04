@@ -69,5 +69,12 @@
     <Build Include="dbo\Tables\Pets.sql" />
     <Build Include="dbo\Tables\Medicine.sql" />
     <Build Include="dbo\Stored Procedures\GenerarClaseVBNet.sql" />
+    <Build Include="dbo\Stored Procedures\SPViewRoles.sql" />
+    <Build Include="dbo\Stored Procedures\SPViewRaces.sql" />
+    <Build Include="dbo\Stored Procedures\SPCatalogoUsers.sql" />
+    <Build Include="dbo\Stored Procedures\SPCatalogoRoles.sql" />
+    <Build Include="dbo\Stored Procedures\SPCatalogoRazas.sql" />
+    <Build Include="dbo\Stored Procedures\SPCatalogoPets.sql" />
+    <Build Include="dbo\Stored Procedures\GenerarClaseCSharp.sql" />
   </ItemGroup>
 </Project>

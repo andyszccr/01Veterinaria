@@ -1,3 +1,7 @@
 <Solution>
+  <Project Path="BDVeterinaria/BDVeterinaria.sqlproj" Id="8f66bf0d-68b1-437b-9bc4-6920f6512192">
+    <Build />
+    <Deploy />
+  </Project>
   <Project Path="CodeBone_App/CodeBone_App.csproj" />
 </Solution>

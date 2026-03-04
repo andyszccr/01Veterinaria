@@ -32,8 +32,16 @@ BEGIN
                             ELSE 'Object'
                         END
 
-        -- Agregar la propiedad a la clase VB.NET
-        SET @ClaseVBNet = @ClaseVBNet + '    Public Property ' + @NombreColumna + ' As ' + @TipoDato + CHAR(13) + CHAR(10)
+        -- Agregar la estructura de propiedad a la clase VB.NET
+        SET @ClaseVBNet = @ClaseVBNet + '    Private ' + @NombreColumna + ' As ' + @TipoDato + CHAR(13) + CHAR(10) + CHAR(13) + CHAR(10) +
+                          '    Public Property _' + @NombreColumna + ' As ' + @TipoDato + CHAR(13) + CHAR(10) +
+                          '        Get' + CHAR(13) + CHAR(10) +
+                          '            Return ' + @NombreColumna + CHAR(13) + CHAR(10) +
+                          '        End Get' + CHAR(13) + CHAR(10) +
+                          '        Set(ByVal value As ' + @TipoDato + ')' + CHAR(13) + CHAR(10) +
+                          '            ' + @NombreColumna + ' = value' + CHAR(13) + CHAR(10) +
+                          '        End Set' + CHAR(13) + CHAR(10) +
+                          '    End Property' + CHAR(13) + CHAR(10) + CHAR(13) + CHAR(10)
 
         FETCH NEXT FROM ColCursor INTO @NombreColumna, @TipoDato
     END
