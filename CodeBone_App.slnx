@@ -5,4 +5,5 @@
   </Project>
   <Project Path="CodeBone_App/CodeBone_App.csproj" />
   <Project Path="Domain/Domain.csproj" Id="195b9b78-7cf8-426c-83f4-f297a72a269b" />
+  <Project Path="Infraestructure/Infraestructure.csproj" Id="f6ba0848-f7cc-4c76-a519-afb081758370" />
 </Solution>
